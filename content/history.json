@@ -1275,6 +1275,25 @@
       "pinterest_pin_id": "1021543128000768357",
       "pinterest_board_id": "1021543196668085616",
       "pinterest_published_at": "2026-10-17T17:45:30Z"
+    },
+    {
+      "id": "2026-10-18-2",
+      "date": "2026-10-18",
+      "slot": 2,
+      "topic": "Signs You Need A Redesign",
+      "fact_index": 9,
+      "seed_fact": "Fonts smaller than 16px on body text are unreadable on mobile. Update your typography.",
+      "fresh_tip": false,
+      "image_style": "stats_callout",
+      "image_headline": "Your mobile visitors can’t read you",
+      "status": "published",
+      "media_id": "18073576733583955",
+      "image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/7b394326c1bf3ae1308c9e7ed35d976dbd11b1dc/content/images/2026-10-18-2.png",
+      "detail": "Published via Composio",
+      "recorded_at": "2026-10-18T07:22:16Z",
+      "pinterest_pin_id": "1021543128000788118",
+      "pinterest_board_id": "1021543196668085616",
+      "pinterest_published_at": "2026-10-18T07:22:21Z"
     }
   ]
 }

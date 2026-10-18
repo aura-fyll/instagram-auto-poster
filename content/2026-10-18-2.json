@@ -1,0 +1,27 @@
+{
+  "id": "2026-10-18-2",
+  "date": "2026-10-18",
+  "slot": 2,
+  "topic": "Signs You Need A Redesign",
+  "fact_index": 9,
+  "seed_fact": "Fonts smaller than 16px on body text are unreadable on mobile. Update your typography.",
+  "fresh_tip": false,
+  "image_headline": "Your mobile visitors can’t read you",
+  "caption": "Ever notice visitors leaving your site on their phones? Tiny text under 16px is hard to read, causing lost sales. Make your copy legible on every screen and keep customers engaged. DM me for a quick website health check.\n\n#webdesign #smallbusiness #websiteaudit #freelancewebdesigner #websiteredesign",
+  "hashtags": [
+    "#webdesign",
+    "#smallbusiness",
+    "#websiteaudit",
+    "#freelancewebdesigner",
+    "#websiteredesign"
+  ],
+  "image_file": "content/images/2026-10-18-2.png",
+  "image_filename": "2026-10-18-2.png",
+  "story_image_filename": "2026-10-18-2-story.png",
+  "ai_generated": true,
+  "generator": "groq",
+  "image_style": "stats_callout",
+  "style_index": 4,
+  "image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/7b394326c1bf3ae1308c9e7ed35d976dbd11b1dc/content/images/2026-10-18-2.png",
+  "story_image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/7b394326c1bf3ae1308c9e7ed35d976dbd11b1dc/content/images/2026-10-18-2-story.png"
+}
