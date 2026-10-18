@@ -1294,6 +1294,25 @@
       "pinterest_pin_id": "1021543128000788118",
       "pinterest_board_id": "1021543196668085616",
       "pinterest_published_at": "2026-10-18T07:22:21Z"
+    },
+    {
+      "id": "2026-10-18-3",
+      "date": "2026-10-18",
+      "slot": 3,
+      "topic": "WordPress vs Wix vs Custom",
+      "fact_index": 10,
+      "seed_fact": "WordPress needs updates monthly. Skip them and you get hacked. Budget for maintenance.",
+      "fresh_tip": false,
+      "image_style": "component_grid",
+      "image_headline": "Skip updates, lose customers",
+      "status": "published",
+      "media_id": "18124101508713529",
+      "image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/2059561c912f0125e121c7185daea5160b32bf03/content/images/2026-10-18-3.png",
+      "detail": "Published via Composio",
+      "recorded_at": "2026-10-18T11:59:00Z",
+      "pinterest_pin_id": "1021543128000793349",
+      "pinterest_board_id": "1021543196668085616",
+      "pinterest_published_at": "2026-10-18T11:59:05Z"
     }
   ]
 }
