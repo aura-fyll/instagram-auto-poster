@@ -1332,6 +1332,25 @@
       "pinterest_pin_id": "1021543128000799341",
       "pinterest_board_id": "1021543196668085616",
       "pinterest_published_at": "2026-10-18T16:02:49Z"
+    },
+    {
+      "id": "2026-10-18-1",
+      "date": "2026-10-18",
+      "slot": 1,
+      "topic": "What A Website Really Costs",
+      "fact_index": 8,
+      "seed_fact": "WordPress sites need $200-$500/year in plugin subscriptions. Budget for it.",
+      "fresh_tip": false,
+      "image_style": "palette_typography",
+      "image_headline": "Your Site’s Hidden Annual Fees",
+      "status": "published",
+      "media_id": "18186280222418125",
+      "image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/fdf72e35a596fb651329f036c43b560677334aaa/content/images/2026-10-18-1.png",
+      "detail": "Published via Composio",
+      "recorded_at": "2026-10-18T17:48:03Z",
+      "pinterest_pin_id": "1021543128000802228",
+      "pinterest_board_id": "1021543196668085616",
+      "pinterest_published_at": "2026-10-18T17:48:08Z"
     }
   ]
 }
