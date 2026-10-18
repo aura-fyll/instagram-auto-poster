@@ -1313,6 +1313,25 @@
       "pinterest_pin_id": "1021543128000793349",
       "pinterest_board_id": "1021543196668085616",
       "pinterest_published_at": "2026-10-18T11:59:05Z"
+    },
+    {
+      "id": "2026-10-18-4",
+      "date": "2026-10-18",
+      "slot": 4,
+      "topic": "How Long A Website Takes",
+      "fact_index": 11,
+      "seed_fact": "Wireframes take 3-5 days. Design mockups 5-7 days. Development 7-14 days. Revisions 3-5 days.",
+      "fresh_tip": false,
+      "image_style": "browser_hero",
+      "image_headline": "Your New Site in 3 Weeks",
+      "status": "published",
+      "media_id": "18188688991408382",
+      "image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/4ce76c405e0791079372ef76660aa20dd4f93e81/content/images/2026-10-18-4.png",
+      "detail": "Published via Composio",
+      "recorded_at": "2026-10-18T16:02:45Z",
+      "pinterest_pin_id": "1021543128000799341",
+      "pinterest_board_id": "1021543196668085616",
+      "pinterest_published_at": "2026-10-18T16:02:49Z"
     }
   ]
 }
