@@ -1351,6 +1351,25 @@
       "pinterest_pin_id": "1021543128000802228",
       "pinterest_board_id": "1021543196668085616",
       "pinterest_published_at": "2026-10-18T17:48:08Z"
+    },
+    {
+      "id": "2026-10-19-2",
+      "date": "2026-10-19",
+      "slot": 2,
+      "topic": "Why You Need A Website",
+      "fact_index": 12,
+      "seed_fact": "Your competitors all have websites. Not having one signals you're not a serious business.",
+      "fresh_tip": false,
+      "image_style": "palette_typography",
+      "image_headline": "No site? You’re losing customers",
+      "status": "published",
+      "media_id": "17920326618243690",
+      "image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/4379cd68581ff81f4f463109aab7848a131f86b7/content/images/2026-10-19-2.png",
+      "detail": "Published via Composio",
+      "recorded_at": "2026-10-19T08:01:15Z",
+      "pinterest_pin_id": "1021543128000821925",
+      "pinterest_board_id": "1021543196668085616",
+      "pinterest_published_at": "2026-10-19T08:01:19Z"
     }
   ]
 }
