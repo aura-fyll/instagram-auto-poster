@@ -1370,6 +1370,25 @@
       "pinterest_pin_id": "1021543128000821925",
       "pinterest_board_id": "1021543196668085616",
       "pinterest_published_at": "2026-10-19T08:01:19Z"
+    },
+    {
+      "id": "2026-10-19-4",
+      "date": "2026-10-19",
+      "slot": 4,
+      "topic": "What A Website Really Costs",
+      "fact_index": 14,
+      "seed_fact": "Don't pay 100% upfront. Milestone payments (50/50) protect both you and the designer.",
+      "fresh_tip": false,
+      "image_style": "component_grid",
+      "image_headline": "Pay Less Risk, Get a Better Site",
+      "status": "published",
+      "media_id": "18117755333070657",
+      "image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/0ac93758467df05a64a0a00399091468f00aca69/content/images/2026-10-19-4.png",
+      "detail": "Published via Composio",
+      "recorded_at": "2026-10-19T14:26:23Z",
+      "pinterest_pin_id": "1021543128000829833",
+      "pinterest_board_id": "1021543196668085616",
+      "pinterest_published_at": "2026-10-19T14:26:27Z"
     }
   ]
 }
