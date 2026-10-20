@@ -1421,6 +1421,22 @@
       "image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/c11cd4fe2f4006f35989a91ffb638696971c3c8d/content/images/2026-10-19-1.png",
       "detail": "Composio action INSTAGRAM_CREATE_MEDIA_CONTAINER was unsuccessful: Failed to create container (status 401). Response: {\"error\":{\"message\":\"Error validating access token: This Instagram account needs to complete a checkpoint before it can access this app. To recover access, log in to www.instagram.com and follow the instructions.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":0,\"fbtrace_id\":\"ArAUY2w7YEPOTrcPZX-Hdru\"}}",
       "recorded_at": "2026-10-19T20:20:36Z"
+    },
+    {
+      "id": "2026-10-20-2",
+      "date": "2026-10-20",
+      "slot": 2,
+      "topic": "WordPress vs Wix vs Custom",
+      "fact_index": 0,
+      "seed_fact": "WordPress runs 43% of the web. Flexible, scalable, but needs maintenance. Best for growing businesses.",
+      "fresh_tip": false,
+      "image_style": "component_grid",
+      "image_headline": "Pick the platform that scales",
+      "status": "failed",
+      "media_id": null,
+      "image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/48ed35a642f23627cd1a55b8711b7e25de3c8210/content/images/2026-10-20-2.png",
+      "detail": "Composio action INSTAGRAM_CREATE_MEDIA_CONTAINER was unsuccessful: Failed to create container (status 401). Response: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":0,\"fbtrace_id\":\"A1op55H2nlQ018828NCdK9e\"}}",
+      "recorded_at": "2026-10-20T07:51:09Z"
     }
   ]
 }

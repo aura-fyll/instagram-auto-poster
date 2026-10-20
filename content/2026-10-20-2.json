@@ -1,0 +1,27 @@
+{
+  "id": "2026-10-20-2",
+  "date": "2026-10-20",
+  "slot": 2,
+  "topic": "WordPress vs Wix vs Custom",
+  "fact_index": 0,
+  "seed_fact": "WordPress runs 43% of the web. Flexible, scalable, but needs maintenance. Best for growing businesses.",
+  "fresh_tip": false,
+  "image_headline": "Pick the platform that scales",
+  "caption": "Still guessing which website builder will grow with your business? WordPress powers 43% of the web, giving you flexibility and room to scale. Wix is simple but can hold you back, and a custom site offers full control at a higher cost. DM me to find a fit for your next site.\n\n#webdesign #smallbusiness #freelancewebdesigner #wordpress #websitebuilder",
+  "hashtags": [
+    "#webdesign",
+    "#smallbusiness",
+    "#freelancewebdesigner",
+    "#wordpress",
+    "#websitebuilder"
+  ],
+  "image_file": "content/images/2026-10-20-2.png",
+  "image_filename": "2026-10-20-2.png",
+  "story_image_filename": "2026-10-20-2-story.png",
+  "ai_generated": true,
+  "generator": "groq",
+  "image_style": "component_grid",
+  "style_index": 5,
+  "image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/48ed35a642f23627cd1a55b8711b7e25de3c8210/content/images/2026-10-20-2.png",
+  "story_image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/48ed35a642f23627cd1a55b8711b7e25de3c8210/content/images/2026-10-20-2-story.png"
+}
