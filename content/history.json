@@ -1453,6 +1453,25 @@
       "image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/8cd6afe0145223b018198eb2930503b24ae0b686/content/images/2026-10-20-2.png",
       "detail": "Composio action INSTAGRAM_CREATE_MEDIA_CONTAINER was unsuccessful: Failed to create container (status 401). Response: {\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":0,\"fbtrace_id\":\"AHzZg8VHvQcGejDceyFvK5w\"}}",
       "recorded_at": "2026-10-20T08:10:42Z"
+    },
+    {
+      "id": "2026-10-20-3",
+      "date": "2026-10-20",
+      "slot": 3,
+      "topic": "How Long A Website Takes",
+      "fact_index": 1,
+      "seed_fact": "The #1 delay isn't the designer — it's waiting on client content (photos, text, brand assets).",
+      "fresh_tip": false,
+      "image_style": "browser_hero",
+      "image_headline": "Your website launch shouldn't wait",
+      "status": "published",
+      "media_id": "18441173977183064",
+      "image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/faa65b8fa08881e3741b139e9418d6997045ccb3/content/images/2026-10-20-3.png",
+      "detail": "Published via Composio",
+      "recorded_at": "2026-10-20T08:22:30Z",
+      "pinterest_pin_id": "1021543128000853710",
+      "pinterest_board_id": "1021543196668085616",
+      "pinterest_published_at": "2026-10-20T08:22:34Z"
     }
   ]
 }
