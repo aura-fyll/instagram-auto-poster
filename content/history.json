@@ -1548,6 +1548,25 @@
       "pinterest_pin_id": "1021543128000898527",
       "pinterest_board_id": "1021543196668085616",
       "pinterest_published_at": "2026-10-21T17:29:59Z"
+    },
+    {
+      "id": "2026-10-22-2",
+      "date": "2026-10-22",
+      "slot": 2,
+      "topic": "How Long A Website Takes",
+      "fact_index": 13,
+      "seed_fact": "SEO setup adds 2-3 days to the timeline. Worth it — don't skip it to save a day.",
+      "fresh_tip": false,
+      "image_style": "stats_callout",
+      "image_headline": "Don’t Rush Your Site Launch",
+      "status": "published",
+      "media_id": "18188444191413346",
+      "image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/bcb7caab0a184149ed731dc53a8a4a9af527e0fe/content/images/2026-10-22-2.png",
+      "detail": "Published via Composio",
+      "recorded_at": "2026-10-22T07:51:37Z",
+      "pinterest_pin_id": "1021543128000918606",
+      "pinterest_board_id": "1021543196668085616",
+      "pinterest_published_at": "2026-10-22T07:51:39Z"
     }
   ]
 }
