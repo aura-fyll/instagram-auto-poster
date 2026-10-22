@@ -1567,6 +1567,25 @@
       "pinterest_pin_id": "1021543128000918606",
       "pinterest_board_id": "1021543196668085616",
       "pinterest_published_at": "2026-10-22T07:51:39Z"
+    },
+    {
+      "id": "2026-10-22-3",
+      "date": "2026-10-22",
+      "slot": 3,
+      "topic": "Local SEO For Small Business",
+      "fact_index": 16,
+      "seed_fact": "Ask customers for reviews in person right after service. Conversion rate is 5x higher than email asks.",
+      "fresh_tip": false,
+      "image_style": "component_grid",
+      "image_headline": "Turn Happy Customers into Google Stars",
+      "status": "published",
+      "media_id": "17993644778852117",
+      "image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/636a8f7b33880a655737f3ca195d3cfe7592ee1b/content/images/2026-10-22-3.png",
+      "detail": "Published via Composio",
+      "recorded_at": "2026-10-22T12:50:31Z",
+      "pinterest_pin_id": "1021543128000924485",
+      "pinterest_board_id": "1021543196668085616",
+      "pinterest_published_at": "2026-10-22T12:50:36Z"
     }
   ]
 }
