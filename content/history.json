@@ -1605,6 +1605,25 @@
       "pinterest_pin_id": "1021543128000932274",
       "pinterest_board_id": "1021543196668085616",
       "pinterest_published_at": "2026-10-22T17:27:02Z"
+    },
+    {
+      "id": "2026-10-23-2",
+      "date": "2026-10-23",
+      "slot": 2,
+      "topic": "What A Website Really Costs",
+      "fact_index": 0,
+      "seed_fact": "A simple 3-5 page business website should cost $300-$1500 from a freelancer. Run from $50 quotes.",
+      "fresh_tip": false,
+      "image_style": "browser_hero",
+      "image_headline": "Stop Overpaying for a Website",
+      "status": "published",
+      "media_id": "17880734832549201",
+      "image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/582908daddbc1d812d813f95c99ee60c171f38f0/content/images/2026-10-23-2.png",
+      "detail": "Published via Composio",
+      "recorded_at": "2026-10-23T07:50:39Z",
+      "pinterest_pin_id": "1021543128000952309",
+      "pinterest_board_id": "1021543196668085616",
+      "pinterest_published_at": "2026-10-23T07:50:43Z"
     }
   ]
 }
