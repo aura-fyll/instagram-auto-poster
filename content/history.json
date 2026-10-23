@@ -1624,6 +1624,25 @@
       "pinterest_pin_id": "1021543128000952309",
       "pinterest_board_id": "1021543196668085616",
       "pinterest_published_at": "2026-10-23T07:50:43Z"
+    },
+    {
+      "id": "2026-10-23-3",
+      "date": "2026-10-23",
+      "slot": 3,
+      "topic": "Signs You Need A Redesign",
+      "fact_index": 1,
+      "seed_fact": "Last updated in 2019? Design trends, screen sizes, and customer expectations have moved on.",
+      "fresh_tip": false,
+      "image_style": "phone_mobile",
+      "image_headline": "Your site is stuck in 2019",
+      "status": "published",
+      "media_id": "18141940987716142",
+      "image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/4594c7b88abc9071680e30c0b248de9a4c762332/content/images/2026-10-23-3.png",
+      "detail": "Published via Composio",
+      "recorded_at": "2026-10-23T12:28:37Z",
+      "pinterest_pin_id": "1021543128000957596",
+      "pinterest_board_id": "1021543196668085616",
+      "pinterest_published_at": "2026-10-23T12:28:42Z"
     }
   ]
 }
