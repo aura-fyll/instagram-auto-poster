@@ -309,7 +309,19 @@
       "dm_sent": false,
       "lead_alert": false,
       "replied_at": "2026-10-24T19:22:06Z"
+    },
+    "18117804575090214": {
+      "post_id": "2026-10-24-2",
+      "media_id": "17875343067594671",
+      "comment_text": "Appreciate you reaching out! Send us a DM and we'll talk about your site.",
+      "comment_user": "visualhookdesign",
+      "sentiment": "generic",
+      "sentiment_method": "groq",
+      "reply": "Glad you liked it! Drop us a DM if you need a website that converts.",
+      "dm_sent": false,
+      "lead_alert": false,
+      "replied_at": "2026-10-24T22:22:37Z"
     }
   },
-  "last_run": "2026-10-24T19:22:08Z"
+  "last_run": "2026-10-24T22:22:38Z"
 }
