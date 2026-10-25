@@ -1,0 +1,27 @@
+{
+  "id": "2026-10-25-3",
+  "date": "2026-10-25",
+  "slot": 3,
+  "topic": "WordPress vs Wix vs Custom",
+  "fact_index": 1,
+  "seed_fact": "Wix and Squarespace are easy to start but lock you in. Migrating away costs more than building fresh.",
+  "fresh_tip": false,
+  "image_headline": "Your site shouldn’t lock you in",
+  "caption": "Thinking of using Wix or Squarespace? They’re quick to launch, but when you outgrow them the cost and hassle of moving your site can be higher than building a fresh, flexible site from the start. DM me to see how a scalable website can save you money long‑term.\n\n#webdesign #smallbusiness #websiteaudit #freelancewebdesigner #websiteredesign",
+  "hashtags": [
+    "#webdesign",
+    "#smallbusiness",
+    "#websiteaudit",
+    "#freelancewebdesigner",
+    "#websiteredesign"
+  ],
+  "image_file": "content/images/2026-10-25-3.png",
+  "image_filename": "2026-10-25-3.png",
+  "story_image_filename": "2026-10-25-3-story.png",
+  "ai_generated": true,
+  "generator": "groq",
+  "image_style": "browser_hero",
+  "style_index": 0,
+  "image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/adfe4c91ce124dcf9dfed280cafc064e3f97438b/content/images/2026-10-25-3.png",
+  "story_image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/adfe4c91ce124dcf9dfed280cafc064e3f97438b/content/images/2026-10-25-3-story.png"
+}

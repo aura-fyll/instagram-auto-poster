@@ -1757,6 +1757,25 @@
       "pinterest_pin_id": "1021543128001021187",
       "pinterest_board_id": "1021543196668085616",
       "pinterest_published_at": "2026-10-25T07:45:18Z"
+    },
+    {
+      "id": "2026-10-25-3",
+      "date": "2026-10-25",
+      "slot": 3,
+      "topic": "WordPress vs Wix vs Custom",
+      "fact_index": 1,
+      "seed_fact": "Wix and Squarespace are easy to start but lock you in. Migrating away costs more than building fresh.",
+      "fresh_tip": false,
+      "image_style": "browser_hero",
+      "image_headline": "Your site shouldn’t lock you in",
+      "status": "published",
+      "media_id": "18371962039208477",
+      "image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/adfe4c91ce124dcf9dfed280cafc064e3f97438b/content/images/2026-10-25-3.png",
+      "detail": "Published via Composio",
+      "recorded_at": "2026-10-25T12:24:06Z",
+      "pinterest_pin_id": "1021543128001026450",
+      "pinterest_board_id": "1021543196668085616",
+      "pinterest_published_at": "2026-10-25T12:24:11Z"
     }
   ]
 }
