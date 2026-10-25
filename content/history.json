@@ -1795,6 +1795,25 @@
       "pinterest_pin_id": "1021543128001033914",
       "pinterest_board_id": "1021543196668085616",
       "pinterest_published_at": "2026-10-25T16:39:35Z"
+    },
+    {
+      "id": "2026-10-25-1",
+      "date": "2026-10-25",
+      "slot": 1,
+      "topic": "What A Website Really Costs",
+      "fact_index": 24,
+      "seed_fact": "Get everything in writing: scope, deliverables, timeline, payment schedule, revision count.",
+      "fresh_tip": false,
+      "image_style": "stats_callout",
+      "image_headline": "Know Exactly What You’ll Pay",
+      "status": "published",
+      "media_id": "17914145598497632",
+      "image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/da87618360a32996e7b047c9ee9c62a4145fb1ac/content/images/2026-10-25-1.png",
+      "detail": "Published via Composio",
+      "recorded_at": "2026-10-25T18:05:57Z",
+      "pinterest_pin_id": "1021543128001036803",
+      "pinterest_board_id": "1021543196668085616",
+      "pinterest_published_at": "2026-10-25T18:06:03Z"
     }
   ]
 }
