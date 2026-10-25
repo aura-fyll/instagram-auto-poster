@@ -1776,6 +1776,25 @@
       "pinterest_pin_id": "1021543128001026450",
       "pinterest_board_id": "1021543196668085616",
       "pinterest_published_at": "2026-10-25T12:24:11Z"
+    },
+    {
+      "id": "2026-10-25-4",
+      "date": "2026-10-25",
+      "slot": 4,
+      "topic": "How Long A Website Takes",
+      "fact_index": 2,
+      "seed_fact": "Revisions are normal. 2-3 rounds are usually included. Endless revisions mean scope creep.",
+      "fresh_tip": false,
+      "image_style": "phone_mobile",
+      "image_headline": "Launch Your Site On Time",
+      "status": "published",
+      "media_id": "17988127973881152",
+      "image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/2f9bc45193b1c7d7af972d05516a6bc041656aa8/content/images/2026-10-25-4.png",
+      "detail": "Published via Composio",
+      "recorded_at": "2026-10-25T16:39:30Z",
+      "pinterest_pin_id": "1021543128001033914",
+      "pinterest_board_id": "1021543196668085616",
+      "pinterest_published_at": "2026-10-25T16:39:35Z"
     }
   ]
 }
