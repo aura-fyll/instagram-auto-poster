@@ -1738,6 +1738,25 @@
       "pinterest_pin_id": "1021543128000999997",
       "pinterest_board_id": "1021543196668085616",
       "pinterest_published_at": "2026-10-24T17:49:29Z"
+    },
+    {
+      "id": "2026-10-25-2",
+      "date": "2026-10-25",
+      "slot": 2,
+      "topic": "Signs You Need A Redesign",
+      "fact_index": 0,
+      "seed_fact": "If your site isn't mobile-friendly, Google penalizes it. You're losing SEO traffic every day.",
+      "fresh_tip": false,
+      "image_style": "component_grid",
+      "image_headline": "Your site is losing traffic on phones",
+      "status": "published",
+      "media_id": "18013935104987855",
+      "image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/3cb74c8c1e3a6b402f199383ff217e5503b8495c/content/images/2026-10-25-2.png",
+      "detail": "Published via Composio",
+      "recorded_at": "2026-10-25T07:45:16Z",
+      "pinterest_pin_id": "1021543128001021187",
+      "pinterest_board_id": "1021543196668085616",
+      "pinterest_published_at": "2026-10-25T07:45:18Z"
     }
   ]
 }
