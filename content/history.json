@@ -1833,6 +1833,25 @@
       "pinterest_pin_id": "1021543128001055490",
       "pinterest_board_id": "1021543196668085616",
       "pinterest_published_at": "2026-10-26T08:01:39Z"
+    },
+    {
+      "id": "2026-10-26-3",
+      "date": "2026-10-26",
+      "slot": 3,
+      "topic": "Website Mistakes Losing You Clients",
+      "fact_index": 17,
+      "seed_fact": "No favicon? Your site looks unfinished in browser tabs. Small detail, big credibility hit.",
+      "fresh_tip": false,
+      "image_style": "palette_typography",
+      "image_headline": "Missing favicon hurts credibility",
+      "status": "published",
+      "media_id": "18012733004969080",
+      "image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/9b6eed01604e5cfc223f87f873454d85f22735db/content/images/2026-10-26-3.png",
+      "detail": "Published via Composio",
+      "recorded_at": "2026-10-26T13:59:51Z",
+      "pinterest_pin_id": "1021543128001062780",
+      "pinterest_board_id": "1021543196668085616",
+      "pinterest_published_at": "2026-10-26T13:59:55Z"
     }
   ]
 }
