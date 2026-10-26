@@ -441,7 +441,30 @@
       "dm_sent": false,
       "lead_alert": false,
       "replied_at": "2026-10-26T00:01:45Z"
+    },
+    "18063794705790921": {
+      "post_id": "2026-10-24-2",
+      "media_id": "17875343067594671",
+      "comment_text": "Thanks for the comment! DM us to discuss your website project.",
+      "comment_user": "visualhookdesign",
+      "sentiment": "generic",
+      "sentiment_method": "groq",
+      "reply": "Appreciate you reaching out! Send us a DM and we'll talk about your site.",
+      "dm_sent": false,
+      "lead_alert": false,
+      "replied_at": "2026-10-26T05:55:30Z"
+    },
+    "17940790464373346": {
+      "post_id": "2026-10-25-3",
+      "media_id": "18371962039208477",
+      "comment_text": "Thanks for the comment! DM us to discuss your website project.",
+      "comment_user": "visualhookdesign",
+      "sentiment": "generic",
+      "reply": "Thanks for the comment! DM us to discuss your website project.",
+      "dm_sent": false,
+      "error": "Composio action INSTAGRAM_REPLY_TO_COMMENT was unsuccessful: Failed to reply to comment (status 500). Response: {\"error\":{\"message\":\"An unknown error has occurred.\",\"type\":\"OAuthException\",\"code\":1,\"f",
+      "replied_at": "2026-10-26T05:55:41Z"
     }
   },
-  "last_run": "2026-10-26T00:01:47Z"
+  "last_run": "2026-10-26T05:55:43Z"
 }
