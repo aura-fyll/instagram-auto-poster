@@ -1,0 +1,27 @@
+{
+  "id": "2026-10-27-2",
+  "date": "2026-10-27",
+  "slot": 2,
+  "topic": "WordPress vs Wix vs Custom",
+  "fact_index": 2,
+  "seed_fact": "Custom code is for apps and SaaS, not small business websites. Overkill and expensive to maintain.",
+  "fresh_tip": false,
+  "image_headline": "Custom sites cost too much",
+  "caption": "Thinking a fully custom website is the only way to stand out? For most small businesses, a custom‑coded site is like buying a sports car when you need a reliable sedan—expensive to build and hard to keep up. Platforms like WordPress or Wix give you professional looks, easy updates, and lower costs. DM me for a site that works for your budget and goals.\n\n#webdesign #smallbusiness #wordpress #websitehelp #freelancewebdesigner",
+  "hashtags": [
+    "#webdesign",
+    "#smallbusiness",
+    "#wordpress",
+    "#websitehelp",
+    "#freelancewebdesigner"
+  ],
+  "image_file": "content/images/2026-10-27-2.png",
+  "image_filename": "2026-10-27-2.png",
+  "story_image_filename": "2026-10-27-2-story.png",
+  "ai_generated": true,
+  "generator": "groq",
+  "image_style": "component_grid",
+  "style_index": 5,
+  "image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/443275ff81c4588532c1004821164195bddaa75b/content/images/2026-10-27-2.png",
+  "story_image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/443275ff81c4588532c1004821164195bddaa75b/content/images/2026-10-27-2-story.png"
+}

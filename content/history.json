@@ -1871,6 +1871,25 @@
       "pinterest_pin_id": "1021543128001071002",
       "pinterest_board_id": "1021543196668085616",
       "pinterest_published_at": "2026-10-26T18:46:48Z"
+    },
+    {
+      "id": "2026-10-27-2",
+      "date": "2026-10-27",
+      "slot": 2,
+      "topic": "WordPress vs Wix vs Custom",
+      "fact_index": 2,
+      "seed_fact": "Custom code is for apps and SaaS, not small business websites. Overkill and expensive to maintain.",
+      "fresh_tip": false,
+      "image_style": "component_grid",
+      "image_headline": "Custom sites cost too much",
+      "status": "published",
+      "media_id": "18000194610112720",
+      "image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/443275ff81c4588532c1004821164195bddaa75b/content/images/2026-10-27-2.png",
+      "detail": "Published via Composio",
+      "recorded_at": "2026-10-27T08:13:57Z",
+      "pinterest_pin_id": "1021543128001090795",
+      "pinterest_board_id": "1021543196668085616",
+      "pinterest_published_at": "2026-10-27T08:14:02Z"
     }
   ]
 }
