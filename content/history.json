@@ -1909,6 +1909,25 @@
       "pinterest_pin_id": "1021543128001096945",
       "pinterest_board_id": "1021543196668085616",
       "pinterest_published_at": "2026-10-27T13:02:28Z"
+    },
+    {
+      "id": "2026-10-27-1",
+      "date": "2026-10-27",
+      "slot": 1,
+      "topic": "Signs You Need A Redesign",
+      "fact_index": 5,
+      "seed_fact": "No analytics? You're flying blind. A redesign includes tracking so you see what's working.",
+      "fresh_tip": false,
+      "image_style": "stats_callout",
+      "image_headline": "Stop Guessing, See What Works",
+      "status": "published",
+      "media_id": "18142926448621011",
+      "image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/aa9b35ffdd5820f187ff952732ae56d1e327a053/content/images/2026-10-27-1.png",
+      "detail": "Published via Composio",
+      "recorded_at": "2026-10-27T18:08:59Z",
+      "pinterest_pin_id": "1021543128001104067",
+      "pinterest_board_id": "1021543196668085616",
+      "pinterest_published_at": "2026-10-27T18:09:04Z"
     }
   ]
 }
