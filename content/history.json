@@ -1928,6 +1928,25 @@
       "pinterest_pin_id": "1021543128001104067",
       "pinterest_board_id": "1021543196668085616",
       "pinterest_published_at": "2026-10-27T18:09:04Z"
+    },
+    {
+      "id": "2026-10-28-2",
+      "date": "2026-10-28",
+      "slot": 2,
+      "topic": "Website Mistakes Losing You Clients",
+      "fact_index": 12,
+      "seed_fact": "No testimonials or reviews? Customers don't trust claims without proof.",
+      "fresh_tip": false,
+      "image_style": "component_grid",
+      "image_headline": "No testimonials or reviews? Customers don't trust...",
+      "status": "published",
+      "media_id": "18150976894561362",
+      "image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/fe91d73d1b49092f9e559232ec7fcfa223cc877d/content/images/2026-10-28-2.png",
+      "detail": "Published via Composio",
+      "recorded_at": "2026-10-28T08:52:10Z",
+      "pinterest_pin_id": "1021543128001124699",
+      "pinterest_board_id": "1021543196668085616",
+      "pinterest_published_at": "2026-10-28T08:52:16Z"
     }
   ]
 }
