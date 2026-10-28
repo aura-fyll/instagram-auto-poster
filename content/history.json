@@ -1966,6 +1966,25 @@
       "pinterest_pin_id": "1021543128001132047",
       "pinterest_board_id": "1021543196668085616",
       "pinterest_published_at": "2026-10-28T13:53:31Z"
+    },
+    {
+      "id": "2026-10-28-1",
+      "date": "2026-10-28",
+      "slot": 1,
+      "topic": "Why You Need A Website",
+      "fact_index": 14,
+      "seed_fact": "Press features and directories link to websites, not Instagram profiles. No site = missing backlinks.",
+      "fresh_tip": false,
+      "image_style": "stats_callout",
+      "image_headline": "Missing backlinks cost you sales",
+      "status": "published",
+      "media_id": "18135908608675179",
+      "image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/8a863f89c3e3c69a6dcb2ee426946d24e1ca610e/content/images/2026-10-28-1.png",
+      "detail": "Published via Composio",
+      "recorded_at": "2026-10-28T18:25:51Z",
+      "pinterest_pin_id": "1021543128001140401",
+      "pinterest_board_id": "1021543196668085616",
+      "pinterest_published_at": "2026-10-28T18:25:56Z"
     }
   ]
 }
