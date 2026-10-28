@@ -1947,6 +1947,25 @@
       "pinterest_pin_id": "1021543128001124699",
       "pinterest_board_id": "1021543196668085616",
       "pinterest_published_at": "2026-10-28T08:52:16Z"
+    },
+    {
+      "id": "2026-10-28-3",
+      "date": "2026-10-28",
+      "slot": 3,
+      "topic": "What A Website Really Costs",
+      "fact_index": 13,
+      "seed_fact": "Maintenance plans ($30-$100/month) keep your site secure and updated. Worth it for active businesses.",
+      "fresh_tip": false,
+      "image_style": "browser_hero",
+      "image_headline": "Your Site Needs Ongoing Care",
+      "status": "published",
+      "media_id": "18119654855053620",
+      "image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/0cefcd8ca29fb268ac30fbf239755e2abe4ec89a/content/images/2026-10-28-3.png",
+      "detail": "Published via Composio",
+      "recorded_at": "2026-10-28T13:53:27Z",
+      "pinterest_pin_id": "1021543128001132047",
+      "pinterest_board_id": "1021543196668085616",
+      "pinterest_published_at": "2026-10-28T13:53:31Z"
     }
   ]
 }
