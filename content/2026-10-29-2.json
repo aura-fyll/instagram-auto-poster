@@ -1,0 +1,27 @@
+{
+  "id": "2026-10-29-2",
+  "date": "2026-10-29",
+  "slot": 2,
+  "topic": "How Long A Website Takes",
+  "fact_index": 14,
+  "seed_fact": "Testing on real devices (not just Chrome) takes 2-3 days. Skip it and bugs ship to production.",
+  "fresh_tip": false,
+  "image_headline": "Testing on real devices (not just Chrome)...",
+  "caption": "How Long A Website Takes\n\nTesting on real devices (not just Chrome) takes 2-3 days. Skip it and bugs ship to production.\n\nNeed a website that actually brings you clients? DM me — let's talk about your project.\n\n#webdesignprocess #freelancewebdesigner #smallbusiness #websitetimeline #webdesignproject",
+  "hashtags": [
+    "#webdesignprocess",
+    "#freelancewebdesigner",
+    "#smallbusiness",
+    "#websitetimeline",
+    "#webdesignproject"
+  ],
+  "image_file": "content/images/2026-10-29-2.png",
+  "image_filename": "2026-10-29-2.png",
+  "story_image_filename": "2026-10-29-2-story.png",
+  "ai_generated": false,
+  "generator": "deterministic-fallback",
+  "image_style": "browser_hero",
+  "style_index": 0,
+  "image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/f2c0894d55f1f696f2866adc1e8d5d097c104922/content/images/2026-10-29-2.png",
+  "story_image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/f2c0894d55f1f696f2866adc1e8d5d097c104922/content/images/2026-10-29-2-story.png"
+}

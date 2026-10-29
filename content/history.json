@@ -1985,6 +1985,25 @@
       "pinterest_pin_id": "1021543128001140401",
       "pinterest_board_id": "1021543196668085616",
       "pinterest_published_at": "2026-10-28T18:25:56Z"
+    },
+    {
+      "id": "2026-10-29-2",
+      "date": "2026-10-29",
+      "slot": 2,
+      "topic": "How Long A Website Takes",
+      "fact_index": 14,
+      "seed_fact": "Testing on real devices (not just Chrome) takes 2-3 days. Skip it and bugs ship to production.",
+      "fresh_tip": false,
+      "image_style": "browser_hero",
+      "image_headline": "Testing on real devices (not just Chrome)...",
+      "status": "published",
+      "media_id": "18127782289871553",
+      "image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/f2c0894d55f1f696f2866adc1e8d5d097c104922/content/images/2026-10-29-2.png",
+      "detail": "Published via Composio",
+      "recorded_at": "2026-10-29T08:46:16Z",
+      "pinterest_pin_id": "1021543128001161212",
+      "pinterest_board_id": "1021543196668085616",
+      "pinterest_published_at": "2026-10-29T08:46:20Z"
     }
   ]
 }
