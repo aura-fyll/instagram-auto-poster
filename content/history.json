@@ -2004,6 +2004,25 @@
       "pinterest_pin_id": "1021543128001161212",
       "pinterest_board_id": "1021543196668085616",
       "pinterest_published_at": "2026-10-29T08:46:20Z"
+    },
+    {
+      "id": "2026-10-29-3",
+      "date": "2026-10-29",
+      "slot": 3,
+      "topic": "Local SEO For Small Business",
+      "fact_index": 19,
+      "seed_fact": "Q&A on your Google Business Profile: pre-answer common questions. Don't wait for customers to ask.",
+      "fresh_tip": false,
+      "image_style": "phone_mobile",
+      "image_headline": "Answer Customers Before They Ask",
+      "status": "published",
+      "media_id": "17907541107666984",
+      "image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/a02b865d392d59830c77c96e8676aaad3fd90f72/content/images/2026-10-29-3.png",
+      "detail": "Published via Composio",
+      "recorded_at": "2026-10-29T13:58:57Z",
+      "pinterest_pin_id": "1021543128001167734",
+      "pinterest_board_id": "1021543196668085616",
+      "pinterest_published_at": "2026-10-29T13:59:01Z"
     }
   ]
 }
