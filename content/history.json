@@ -2023,6 +2023,25 @@
       "pinterest_pin_id": "1021543128001167734",
       "pinterest_board_id": "1021543196668085616",
       "pinterest_published_at": "2026-10-29T13:59:01Z"
+    },
+    {
+      "id": "2026-10-29-1",
+      "date": "2026-10-29",
+      "slot": 1,
+      "topic": "WordPress vs Wix vs Custom",
+      "fact_index": 13,
+      "seed_fact": "Wix ADI (AI-built sites) look generic. You're getting a template, not a custom design.",
+      "fresh_tip": false,
+      "image_style": "component_grid",
+      "image_headline": "Your site looks like everyone else",
+      "status": "published",
+      "media_id": "18114826052601377",
+      "image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/4646ed45730066f236f93e5d145f43b190437776/content/images/2026-10-29-1.png",
+      "detail": "Published via Composio",
+      "recorded_at": "2026-10-29T18:35:34Z",
+      "pinterest_pin_id": "1021543128001174707",
+      "pinterest_board_id": "1021543196668085616",
+      "pinterest_published_at": "2026-10-29T18:35:39Z"
     }
   ]
 }
