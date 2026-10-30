@@ -2061,6 +2061,25 @@
       "pinterest_pin_id": "1021543128001191477",
       "pinterest_board_id": "1021543196668085616",
       "pinterest_published_at": "2026-10-30T08:52:54Z"
+    },
+    {
+      "id": "2026-10-30-3",
+      "date": "2026-10-30",
+      "slot": 3,
+      "topic": "Signs You Need A Redesign",
+      "fact_index": 6,
+      "seed_fact": "If your site still uses stock photos from 2015, you look dated. Real photos refresh your brand.",
+      "fresh_tip": false,
+      "image_style": "component_grid",
+      "image_headline": "Your site looks stuck in 2015",
+      "status": "published",
+      "media_id": "18093383222201968",
+      "image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/4941074cc827fd7f0605777be33239a45b4ee5cb/content/images/2026-10-30-3.png",
+      "detail": "Published via Composio",
+      "recorded_at": "2026-10-30T13:54:19Z",
+      "pinterest_pin_id": "1021543128001197383",
+      "pinterest_board_id": "1021543196668085616",
+      "pinterest_published_at": "2026-10-30T13:54:23Z"
     }
   ]
 }
