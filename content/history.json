@@ -2080,6 +2080,25 @@
       "pinterest_pin_id": "1021543128001197383",
       "pinterest_board_id": "1021543196668085616",
       "pinterest_published_at": "2026-10-30T13:54:23Z"
+    },
+    {
+      "id": "2026-10-30-1",
+      "date": "2026-10-30",
+      "slot": 1,
+      "topic": "Website Mistakes Losing You Clients",
+      "fact_index": 22,
+      "seed_fact": "No search bar on content-heavy sites frustrates users. Add one if you have 20+ pages.",
+      "fresh_tip": false,
+      "image_style": "palette_typography",
+      "image_headline": "Customers can’t find what they need",
+      "status": "published",
+      "media_id": "18249776758310953",
+      "image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/9964f68fddf032c6d1ced929cc107edf33c6124a/content/images/2026-10-30-1.png",
+      "detail": "Published via Composio",
+      "recorded_at": "2026-10-30T18:08:05Z",
+      "pinterest_pin_id": "1021543128001203684",
+      "pinterest_board_id": "1021543196668085616",
+      "pinterest_published_at": "2026-10-30T18:08:10Z"
     }
   ]
 }
