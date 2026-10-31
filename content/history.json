@@ -2137,6 +2137,25 @@
       "pinterest_pin_id": "1021543128001225033",
       "pinterest_board_id": "1021543196668085616",
       "pinterest_published_at": "2026-10-31T13:25:33Z"
+    },
+    {
+      "id": "2026-10-31-1",
+      "date": "2026-10-31",
+      "slot": 1,
+      "topic": "How Long A Website Takes",
+      "fact_index": 22,
+      "seed_fact": "Multi-language sites take 2-3x longer. Each language needs translation + layout adjustments.",
+      "fresh_tip": false,
+      "image_style": "before_after",
+      "image_headline": "Going Global? Expect a Longer Build",
+      "status": "published",
+      "media_id": "17873022528645630",
+      "image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/00b2d64de63d9af98f5b44c00e1f1d8514b980e3/content/images/2026-10-31-1.png",
+      "detail": "Published via Composio",
+      "recorded_at": "2026-10-31T17:19:14Z",
+      "pinterest_pin_id": "1021543128001231333",
+      "pinterest_board_id": "1021543196668085616",
+      "pinterest_published_at": "2026-10-31T17:19:18Z"
     }
   ]
 }

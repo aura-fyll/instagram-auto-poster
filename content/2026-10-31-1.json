@@ -1,0 +1,27 @@
+{
+  "id": "2026-10-31-1",
+  "date": "2026-10-31",
+  "slot": 1,
+  "topic": "How Long A Website Takes",
+  "fact_index": 22,
+  "seed_fact": "Multi-language sites take 2-3x longer. Each language needs translation + layout adjustments.",
+  "fresh_tip": false,
+  "image_headline": "Going Global? Expect a Longer Build",
+  "caption": "Thinking about a website in multiple languages? Each language adds translation and layout tweaks, so the project can take two to three times longer than a single-language site. Want a realistic timeline and smooth rollout? DM me.\n\n#webdesign #smallbusiness #freelancewebdesigner #multilingualwebsite #websitegrowth",
+  "hashtags": [
+    "#webdesign",
+    "#smallbusiness",
+    "#freelancewebdesigner",
+    "#multilingualwebsite",
+    "#websitegrowth"
+  ],
+  "image_file": "content/images/2026-10-31-1.png",
+  "image_filename": "2026-10-31-1.png",
+  "story_image_filename": "2026-10-31-1-story.png",
+  "ai_generated": true,
+  "generator": "groq",
+  "image_style": "before_after",
+  "style_index": 2,
+  "image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/00b2d64de63d9af98f5b44c00e1f1d8514b980e3/content/images/2026-10-31-1.png",
+  "story_image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/00b2d64de63d9af98f5b44c00e1f1d8514b980e3/content/images/2026-10-31-1-story.png"
+}
