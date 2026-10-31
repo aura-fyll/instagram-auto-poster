@@ -2099,6 +2099,25 @@
       "pinterest_pin_id": "1021543128001203684",
       "pinterest_board_id": "1021543196668085616",
       "pinterest_published_at": "2026-10-30T18:08:10Z"
+    },
+    {
+      "id": "2026-10-31-2",
+      "date": "2026-10-31",
+      "slot": 2,
+      "topic": "Local SEO For Small Business",
+      "fact_index": 23,
+      "seed_fact": "Optimize for 'near me' searches. Make sure your services + location are prominent on every page.",
+      "fresh_tip": false,
+      "image_style": "palette_typography",
+      "image_headline": "Get Found in 'Near Me' Searches",
+      "status": "published",
+      "media_id": "18644851033027768",
+      "image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/49c5af66ee48f0cd6c3ebed7328efdc560c96d0c/content/images/2026-10-31-2.png",
+      "detail": "Published via Composio",
+      "recorded_at": "2026-10-31T08:41:53Z",
+      "pinterest_pin_id": "1021543128001220511",
+      "pinterest_board_id": "1021543196668085616",
+      "pinterest_published_at": "2026-10-31T08:41:58Z"
     }
   ]
 }
