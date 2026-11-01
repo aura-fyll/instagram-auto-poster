@@ -2175,6 +2175,25 @@
       "pinterest_pin_id": "1021543128001249800",
       "pinterest_board_id": "1021543196668085616",
       "pinterest_published_at": "2026-11-01T09:31:35Z"
+    },
+    {
+      "id": "2026-11-01-4",
+      "date": "2026-11-01",
+      "slot": 4,
+      "topic": "How Long A Website Takes",
+      "fact_index": 10,
+      "seed_fact": "A real freelancer gives you a timeline BEFORE you pay. Vague timelines = vague work.",
+      "fresh_tip": false,
+      "image_style": "browser_hero",
+      "image_headline": "Know Exactly When Your Site Launches",
+      "status": "published",
+      "media_id": "18081421586734716",
+      "image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/cd9cad419cf5ae5d6af9ed7e7c2decac22a961cc/content/images/2026-11-01-4.png",
+      "detail": "Published via Composio",
+      "recorded_at": "2026-11-01T14:07:16Z",
+      "pinterest_pin_id": "1021543128001255254",
+      "pinterest_board_id": "1021543196668085616",
+      "pinterest_published_at": "2026-11-01T14:07:21Z"
     }
   ]
 }
