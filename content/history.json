@@ -2156,6 +2156,25 @@
       "pinterest_pin_id": "1021543128001231333",
       "pinterest_board_id": "1021543196668085616",
       "pinterest_published_at": "2026-10-31T17:19:18Z"
+    },
+    {
+      "id": "2026-11-01-1",
+      "date": "2026-11-01",
+      "slot": 1,
+      "topic": "What A Website Really Costs",
+      "fact_index": 6,
+      "seed_fact": "E-commerce sites cost $2000-$10000+ depending on product count and payment integration complexity.",
+      "fresh_tip": false,
+      "image_style": "palette_typography",
+      "image_headline": "Your e‑commerce site is costing too much",
+      "status": "published",
+      "media_id": "17998293777022806",
+      "image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/8d1304ce242f139261da9fab9f5a12da38c90a24/content/images/2026-11-01-1.png",
+      "detail": "Published via Composio",
+      "recorded_at": "2026-11-01T09:31:31Z",
+      "pinterest_pin_id": "1021543128001249800",
+      "pinterest_board_id": "1021543196668085616",
+      "pinterest_published_at": "2026-11-01T09:31:35Z"
     }
   ]
 }

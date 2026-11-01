@@ -1,0 +1,27 @@
+{
+  "id": "2026-11-01-1",
+  "date": "2026-11-01",
+  "slot": 1,
+  "topic": "What A Website Really Costs",
+  "fact_index": 6,
+  "seed_fact": "E-commerce sites cost $2000-$10000+ depending on product count and payment integration complexity.",
+  "fresh_tip": false,
+  "image_headline": "Your e‑commerce site is costing too much",
+  "caption": "Think a $5,000 online store is out of reach? The price depends on how many products you sell and the payment tools you need—nothing mysterious, just the work that makes sales flow. DM me for a clear quote for your business.\n\n#webdesign #smallbusiness #ecommercedesign #freelancewebdesigner #onlinestore",
+  "hashtags": [
+    "#webdesign",
+    "#smallbusiness",
+    "#ecommercedesign",
+    "#freelancewebdesigner",
+    "#onlinestore"
+  ],
+  "image_file": "content/images/2026-11-01-1.png",
+  "image_filename": "2026-11-01-1.png",
+  "story_image_filename": "2026-11-01-1-story.png",
+  "ai_generated": true,
+  "generator": "groq",
+  "image_style": "palette_typography",
+  "style_index": 3,
+  "image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/8d1304ce242f139261da9fab9f5a12da38c90a24/content/images/2026-11-01-1.png",
+  "story_image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/8d1304ce242f139261da9fab9f5a12da38c90a24/content/images/2026-11-01-1-story.png"
+}
