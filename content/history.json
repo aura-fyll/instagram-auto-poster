@@ -2194,6 +2194,25 @@
       "pinterest_pin_id": "1021543128001255254",
       "pinterest_board_id": "1021543196668085616",
       "pinterest_published_at": "2026-11-01T14:07:21Z"
+    },
+    {
+      "id": "2026-11-02-1",
+      "date": "2026-11-02",
+      "slot": 1,
+      "topic": "Local SEO For Small Business",
+      "fact_index": 7,
+      "seed_fact": "Create one page per service location. 'Plumber in Austin' + 'Plumber in Round Rock' = 2 ranking pages.",
+      "fresh_tip": false,
+      "image_style": "palette_typography",
+      "image_headline": "Get Found in Every Neighborhood",
+      "status": "published",
+      "media_id": "18136083574739340",
+      "image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/acab0f4994f4801adf61a5e9d357fb8601f93b16/content/images/2026-11-02-1.png",
+      "detail": "Published via Composio",
+      "recorded_at": "2026-11-02T09:48:41Z",
+      "pinterest_pin_id": "1021543128001282243",
+      "pinterest_board_id": "1021543196668085616",
+      "pinterest_published_at": "2026-11-02T09:48:45Z"
     }
   ]
 }
