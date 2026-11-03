@@ -2251,6 +2251,25 @@
       "pinterest_pin_id": "1021543128001315048",
       "pinterest_board_id": "1021543196668085616",
       "pinterest_published_at": "2026-11-03T09:52:43Z"
+    },
+    {
+      "id": "2026-11-03-4",
+      "date": "2026-11-03",
+      "slot": 4,
+      "topic": "Local SEO For Small Business",
+      "fact_index": 21,
+      "seed_fact": "Mention nearby landmarks on your contact page. Helps Google's local relevance signals.",
+      "fresh_tip": false,
+      "image_style": "palette_typography",
+      "image_headline": "Get Found By Neighbors Online",
+      "status": "published",
+      "media_id": "17927187981200166",
+      "image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/c55b7e3740f774734f57e52fc5781b6429077f10/content/images/2026-11-03-4.png",
+      "detail": "Published via Composio",
+      "recorded_at": "2026-11-03T14:53:58Z",
+      "pinterest_pin_id": "1021543128001320554",
+      "pinterest_board_id": "1021543196668085616",
+      "pinterest_published_at": "2026-11-03T14:54:02Z"
     }
   ]
 }
