@@ -2232,6 +2232,25 @@
       "pinterest_pin_id": "1021543128001292185",
       "pinterest_board_id": "1021543196668085616",
       "pinterest_published_at": "2026-11-02T16:53:33Z"
+    },
+    {
+      "id": "2026-11-03-1",
+      "date": "2026-11-03",
+      "slot": 1,
+      "topic": "Signs You Need A Redesign",
+      "fact_index": 15,
+      "seed_fact": "Still using Flash or outdated plugins? Modern browsers block them. Your site looks broken.",
+      "fresh_tip": false,
+      "image_style": "browser_hero",
+      "image_headline": "Your site is stuck in the past",
+      "status": "published",
+      "media_id": "18087380165338745",
+      "image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/8b2b9c3eb0b9645d94565f15d7ba0ca7d2696643/content/images/2026-11-03-1.png",
+      "detail": "Published via Composio",
+      "recorded_at": "2026-11-03T09:52:38Z",
+      "pinterest_pin_id": "1021543128001315048",
+      "pinterest_board_id": "1021543196668085616",
+      "pinterest_published_at": "2026-11-03T09:52:43Z"
     }
   ]
 }
