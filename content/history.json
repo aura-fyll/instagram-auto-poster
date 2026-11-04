@@ -2285,7 +2285,10 @@
       "media_id": null,
       "image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/d83594a2bf3563599a50a8597de18bce17ef9e25/content/images/2026-11-04-1.png",
       "detail": "Composio action INSTAGRAM_CREATE_MEDIA_CONTAINER was unsuccessful: Failed to create container (status 400). Response: {\"error\":{\"message\":\"Only photo or video can be accepted as media type.\",\"type\":\"OAuthException\",\"code\":9004,\"error_subcode\":2207052,\"is_transient\":false,\"error_user_title\":\"Media download has failed. The media URI doesn't meet our requirements.\",\"error_user_msg\":\"The media could not be fetched from this URI: https:\\/\\/raw.githubusercontent.com\\/aura-fyll\\/instagram-auto-poster\\/d83594a2bf3563599a50a8597de18bce17ef9e25\\/content\\/images\\/2026-11-04-1.png.Please check the limitations section in our development document for more information: http...<truncated>",
-      "recorded_at": "2026-11-04T09:40:38Z"
+      "recorded_at": "2026-11-04T09:40:38Z",
+      "pinterest_pin_id": "1021543128001357763",
+      "pinterest_board_id": "1021543196668085616",
+      "pinterest_published_at": "2026-11-04T19:57:16Z"
     },
     {
       "id": "2026-11-04-4",
@@ -2305,6 +2308,22 @@
       "pinterest_pin_id": "1021543128001351848",
       "pinterest_board_id": "1021543196668085616",
       "pinterest_published_at": "2026-11-04T15:13:34Z"
+    },
+    {
+      "id": "2026-11-04-1",
+      "date": "2026-11-04",
+      "slot": 1,
+      "topic": "Why You Need A Website",
+      "fact_index": 20,
+      "seed_fact": "Reviews on your own website build trust forever. Instagram reviews disappear in your story archive.",
+      "fresh_tip": false,
+      "image_style": "stats_callout",
+      "image_headline": "Keep Customer Trust On Your Site",
+      "status": "published",
+      "media_id": "18119829334790395",
+      "image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/5a931428bb66e16df5a8143260b65a25cab63660/content/images/2026-11-04-1.png",
+      "detail": "Published via Composio",
+      "recorded_at": "2026-11-04T19:57:12Z"
     }
   ]
 }
