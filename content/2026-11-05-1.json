@@ -1,0 +1,27 @@
+{
+  "id": "2026-11-05-1",
+  "date": "2026-11-05",
+  "slot": 1,
+  "topic": "WordPress vs Wix vs Custom",
+  "fact_index": 21,
+  "seed_fact": "Framer is the new kid on the block — like Webflow but with motion built in. Great for portfolios.",
+  "fresh_tip": false,
+  "image_headline": "Choose the Right Site Platform",
+  "caption": "Stuck picking a website builder? WordPress gives endless growth, Wix is quick but limited, and a custom site (or tools like Framer) adds motion and brand uniqueness—perfect for standing out. DM me for a free platform audit and a site that works for your business.\n\n#webdesign #smallbusiness #freelancewebdesigner #websiteaudit #customsites",
+  "hashtags": [
+    "#webdesign",
+    "#smallbusiness",
+    "#freelancewebdesigner",
+    "#websiteaudit",
+    "#customsites"
+  ],
+  "image_file": "content/images/2026-11-05-1.png",
+  "image_filename": "2026-11-05-1.png",
+  "story_image_filename": "2026-11-05-1-story.png",
+  "ai_generated": true,
+  "generator": "groq",
+  "image_style": "component_grid",
+  "style_index": 5,
+  "image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/53015ba8ba945c47c1fb0900f442a9a403cd32d0/content/images/2026-11-05-1.png",
+  "story_image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/53015ba8ba945c47c1fb0900f442a9a403cd32d0/content/images/2026-11-05-1-story.png"
+}

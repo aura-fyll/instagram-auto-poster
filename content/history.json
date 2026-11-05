@@ -2324,6 +2324,25 @@
       "image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/5a931428bb66e16df5a8143260b65a25cab63660/content/images/2026-11-04-1.png",
       "detail": "Published via Composio",
       "recorded_at": "2026-11-04T19:57:12Z"
+    },
+    {
+      "id": "2026-11-05-1",
+      "date": "2026-11-05",
+      "slot": 1,
+      "topic": "WordPress vs Wix vs Custom",
+      "fact_index": 21,
+      "seed_fact": "Framer is the new kid on the block — like Webflow but with motion built in. Great for portfolios.",
+      "fresh_tip": false,
+      "image_style": "component_grid",
+      "image_headline": "Choose the Right Site Platform",
+      "status": "published",
+      "media_id": "18453464932134287",
+      "image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/53015ba8ba945c47c1fb0900f442a9a403cd32d0/content/images/2026-11-05-1.png",
+      "detail": "Published via Composio",
+      "recorded_at": "2026-11-05T09:44:40Z",
+      "pinterest_pin_id": "1021543128001373445",
+      "pinterest_board_id": "1021543196668085616",
+      "pinterest_published_at": "2026-11-05T09:44:42Z"
     }
   ]
 }
