@@ -464,7 +464,19 @@
       "dm_sent": false,
       "error": "Composio action INSTAGRAM_REPLY_TO_COMMENT was unsuccessful: Failed to reply to comment (status 500). Response: {\"error\":{\"message\":\"An unknown error has occurred.\",\"type\":\"OAuthException\",\"code\":1,\"f",
       "replied_at": "2026-10-26T05:55:41Z"
+    },
+    "18234818743325954": {
+      "post_id": "2026-11-06-1",
+      "media_id": "18129101476910698",
+      "comment_text": "Agreed. A quick test: if a competitor could paste your headline onto their site ",
+      "comment_user": "?",
+      "sentiment": "generic",
+      "sentiment_method": "groq",
+      "reply": "Glad you liked it! Drop us a DM if you need a website that converts.",
+      "dm_sent": false,
+      "lead_alert": false,
+      "replied_at": "2026-11-06T22:56:41Z"
     }
   },
-  "last_run": "2026-11-06T17:19:28Z"
+  "last_run": "2026-11-06T22:56:42Z"
 }
