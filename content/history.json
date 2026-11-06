@@ -2362,6 +2362,25 @@
       "pinterest_pin_id": "1021543128001379649",
       "pinterest_board_id": "1021543196668085616",
       "pinterest_published_at": "2026-11-05T15:14:18Z"
+    },
+    {
+      "id": "2026-11-06-1",
+      "date": "2026-11-06",
+      "slot": 1,
+      "topic": "Website Mistakes Losing You Clients",
+      "fact_index": 13,
+      "seed_fact": "Generic 'Welcome to our website' headlines waste the most valuable real estate on your site.",
+      "fresh_tip": false,
+      "image_style": "stats_callout",
+      "image_headline": "Stop Wasting Your Homepage Space",
+      "status": "published",
+      "media_id": "18129101476910698",
+      "image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/38d73776eb1511bcdf54cc44e2d0dee1f451884f/content/images/2026-11-06-1.png",
+      "detail": "Published via Composio",
+      "recorded_at": "2026-11-06T09:41:20Z",
+      "pinterest_pin_id": "1021543128001402672",
+      "pinterest_board_id": "1021543196668085616",
+      "pinterest_published_at": "2026-11-06T09:41:25Z"
     }
   ]
 }
