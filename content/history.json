@@ -2381,6 +2381,25 @@
       "pinterest_pin_id": "1021543128001402672",
       "pinterest_board_id": "1021543196668085616",
       "pinterest_published_at": "2026-11-06T09:41:25Z"
+    },
+    {
+      "id": "2026-11-06-4",
+      "date": "2026-11-06",
+      "slot": 4,
+      "topic": "WordPress vs Wix vs Custom",
+      "fact_index": 14,
+      "seed_fact": "WordPress + Elementor gives you drag-and-drop editing without lock-in. Best of both worlds.",
+      "fresh_tip": false,
+      "image_style": "phone_mobile",
+      "image_headline": "Control Your Site, No Limits",
+      "status": "published",
+      "media_id": "17914226403487459",
+      "image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/4d063743e9c5c23cdfa2c02643d3e1f7e822b95a/content/images/2026-11-06-4.png",
+      "detail": "Published via Composio",
+      "recorded_at": "2026-11-06T14:50:13Z",
+      "pinterest_pin_id": "1021543128001408655",
+      "pinterest_board_id": "1021543196668085616",
+      "pinterest_published_at": "2026-11-06T14:50:18Z"
     }
   ]
 }
