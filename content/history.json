@@ -2400,6 +2400,25 @@
       "pinterest_pin_id": "1021543128001408655",
       "pinterest_board_id": "1021543196668085616",
       "pinterest_published_at": "2026-11-06T14:50:18Z"
+    },
+    {
+      "id": "2026-11-07-1",
+      "date": "2026-11-07",
+      "slot": 1,
+      "topic": "How Long A Website Takes",
+      "fact_index": 4,
+      "seed_fact": "A freelancer building 3 sites at once can give yours real attention. An agency juggling 30 cannot.",
+      "fresh_tip": false,
+      "image_style": "browser_hero",
+      "image_headline": "Your website deserves focused attention",
+      "status": "published",
+      "media_id": "18140066554655974",
+      "image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/78023c6202c9d3d2e87cb3f817fc7002e5262dc8/content/images/2026-11-07-1.png",
+      "detail": "Published via Composio",
+      "recorded_at": "2026-11-07T09:04:13Z",
+      "pinterest_pin_id": "1021543128001432276",
+      "pinterest_board_id": "1021543196668085616",
+      "pinterest_published_at": "2026-11-07T09:04:19Z"
     }
   ]
 }
