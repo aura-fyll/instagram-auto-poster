@@ -53,6 +53,8 @@ jobs:
       GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
       PINTEREST_CONNECTED_ACCOUNT_ID: ${{ secrets.PINTEREST_CONNECTED_ACCOUNT_ID }}
       PINTEREST_USER_ID: ${{ secrets.PINTEREST_USER_ID }}
+      # GITHUB_TOKEN is needed by publish/release.py to upload videos to GitHub Releases
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     steps:
       - name: Checkout
