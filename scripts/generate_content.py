@@ -491,6 +491,10 @@ TOPIC_PALETTES: dict[str, dict[str, tuple[int, int, int]]] = {
         "primary": (50, 70, 50), "accent": (240, 180, 60),
         "dark": (25, 35, 25), "light": (245, 248, 240),
     },
+    "GitHub Automation for Freelancers": {
+        "primary": (36, 41, 46), "accent": (99, 91, 255),
+        "dark": (20, 24, 28), "light": (245, 245, 250),
+    },
 }
 
 DEFAULT_PALETTE: dict[str, tuple[int, int, int]] = {
@@ -578,6 +582,7 @@ TOPIC_INDUSTRY: dict[str, dict[str, str]] = {
     "WordPress vs Wix vs Custom":       {"brand": "Maker Goods",      "url": "makergoods.com",     "cta": "Shop Now"},
     "How Long A Website Takes":         {"brand": "Bright Smile Dental", "url": "brightsmile.com", "cta": "Book Visit"},
     "Local SEO For Small Business":     {"brand": "Rivera Plumbing",  "url": "riveraplumbing.com", "cta": "Call Now"},
+    "GitHub Automation for Freelancers": {"brand": "DevForge Studio",  "url": "devforge.studio",   "cta": "Hire Me"},
 }
 
 DEFAULT_INDUSTRY = {"brand": "Your Business", "url": "yourbusiness.com", "cta": "Get Quote"}

@@ -30,3 +30,7 @@ credentials.json
 # Local content cache (history.json and generated images ARE committed
 # intentionally for idempotency and image hosting, so we do NOT gitignore
 # content/history.json or content/images/.
+
+# Video pipeline — rendered videos are hosted on GitHub Releases, not committed
+outputs/
+download/repo-backup-*

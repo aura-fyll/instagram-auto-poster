@@ -1,0 +1,308 @@
+{
+  "topic": "github-freelancing",
+  "brand_pill": "GITHUB x FREELANCING",
+  "handle": "@visualhookdesign",
+  "voice": "en-US-AndrewNeural",
+  "episodes": [
+    {
+      "hook": {"text": "Your client's site deploys itself while you sleep", "saying": "Your client's website deploys itself every time you push code, even while you sleep."},
+      "tips": [
+        {"title": "Push = deploy", "body": "GitHub Actions watches main", "chip": "on: push: branches: [main]", "saying": "One. Actions watches the main branch. Every push triggers the deploy, no FTP, ever again."},
+        {"title": "Pages build", "body": "Static site, free hosting", "chip": "uses: actions/deploy-pages@v4", "saying": "Two. GitHub Pages hosts it free, with HTTPS and a custom domain included."},
+        {"title": "Live in 90s", "body": "Commit to client-seeing in seconds", "chip": "deploy time: ~90 seconds", "saying": "Three. From your commit to the client seeing it live, in about ninety seconds."}
+      ],
+      "cta": {"text": "Follow for freelance automation daily", "saying": "Follow for one GitHub freelancing automation, every day."},
+      "hashtags": ["github", "automation", "freelance", "webdev", "devops"]
+    },
+    {
+      "hook": {"text": "Every client gets a preview link per change", "saying": "Give every client change a private preview link, without deploying anything by hand."},
+      "tips": [
+        {"title": "PR previews", "body": "Each branch gets its own URL", "chip": "on: pull_request:", "saying": "One. Every pull request builds its own preview URL, live for the client to click."},
+        {"title": "No approvals", "body": "Works with free GitHub accounts", "chip": " PR #42 -> preview-42.derrick.site ", "saying": "Two. This works on a free GitHub account. No paid CI, no approvals, no servers."},
+        {"title": "Faster signoff", "body": "Clients approve what they see", "chip": "review cycle: 3 days -> 3 hours", "saying": "Three. Clients approve what they can actually see. Review cycles collapse from days to hours."}
+      ],
+      "cta": {"text": "Save this. Follow for daily automations", "saying": "Save this one, and follow for a new automation tomorrow."},
+      "hashtags": ["github", "pullrequest", "freelance", "webdev", "automation"]
+    },
+    {
+      "hook": {"text": "Client bug reports that don't make you cry", "saying": "Get client bug reports that actually contain the information you need."},
+      "tips": [
+        {"title": "Issue templates", "body": "Structured reports every time", "chip": ".github/ISSUE_TEMPLATE/bug.yml", "saying": "One. Issue templates force every client report to include steps, screenshots, and browser."},
+        {"title": "Bug forms", "body": "Dropdowns, not 'it broke' text", "chip": "type: dropdown — severity?", "saying": "Two. Dropdowns and required fields replace the classic it just broke message."},
+        {"title": "Labels route", "body": "Bugs auto-tagged and assigned", "chip": "labels: [client-bug, urgent]", "saying": "Three. Labels apply automatically, so urgent client bugs jump your queue."}
+      ],
+      "cta": {"text": "Follow for freelance automation daily", "saying": "Follow for one GitHub freelancing automation, every day."},
+      "hashtags": ["github", "issues", "freelance", "clients", "webdev"]
+    },
+    {
+      "hook": {"text": "Invoices that write themselves every month", "saying": "Invoices that generate themselves on the first of every month. Zero manual work."},
+      "tips": [
+        {"title": "Cron job", "body": "Actions runs monthly, unattended", "chip": "on: schedule: - cron: '0 0 1 * *'", "saying": "One. A scheduled workflow runs on the first of each month, completely unattended."},
+        {"title": "Template fill", "body": "Script merges hours + rates", "chip": "python invoice.py --client acme", "saying": "Two. A small script merges tracked hours and rates into a clean PDF invoice."},
+        {"title": "Auto delivery", "body": "PDF lands in client's inbox", "chip": "send email via smtp action", "saying": "Three. The PDF is emailed to the client automatically. You literally do nothing."}
+      ],
+      "cta": {"text": "Save this. Follow for daily automations", "saying": "Save this one, and follow for a new automation tomorrow."},
+      "hashtags": ["github", "freelance", "invoice", "automation", "money"]
+    },
+    {
+      "hook": {"text": "Stop rebuilding the same client boilerplate", "saying": "Stop rebuilding the same project boilerplate for every new client."},
+      "tips": [
+        {"title": "Reusable workflows", "body": "Write CI once, call it everywhere", "chip": "uses: ./.github/workflows/deploy.yml", "saying": "One. Reusable workflows mean you write your deploy once, then call it from any repo."},
+        {"title": "Template repos", "body": "New client project in 5 minutes", "chip": "gh repo create --template my-stack", "saying": "Two. Template repos give a new client project in five minutes, with CI already wired."},
+        {"title": "One fix, all clients", "body": "Patch the shared workflow only", "chip": "workflow_call: inputs: client:", "saying": "Three. Fix a bug in the shared workflow once, and every client repo gets it."}
+      ],
+      "cta": {"text": "Follow for freelance automation daily", "saying": "Follow for one GitHub freelancing automation, every day."},
+      "hashtags": ["github", "boilerplate", "freelance", "devops", "automation"]
+    },
+    {
+      "hook": {"text": "Dependabot: free junior dev for your clients", "saying": "Dependabot is like a free junior developer watching every client project."},
+      "tips": [
+        {"title": "Auto PRs", "body": "Outdated deps get update PRs", "chip": "version: 2 updates: - package-ecosystem: npm", "saying": "One. Dependabot opens clean update pull requests whenever a dependency ages."},
+        {"title": "Weekly digest", "body": "One PR bundle, quiet inbox", "chip": "schedule: interval: weekly", "saying": "Two. A weekly schedule bundles updates, so it never floods your pull requests."},
+        {"title": "Security first", "body": "Vulnerable packages flagged fast", "chip": "security updates: immediate", "saying": "Three. Security vulnerabilities get flagged immediately, before a client ever notices."}
+      ],
+      "cta": {"text": "Save this. Follow for daily automations", "saying": "Save this one, and follow for a new automation tomorrow."},
+      "hashtags": ["dependabot", "github", "security", "freelance", "automation"]
+    },
+    {
+      "hook": {"text": "CI that finishes in 40 seconds, not 12 minutes", "saying": "Make your CI finish in forty seconds instead of twelve minutes."},
+      "tips": [
+        {"title": "Cache deps", "body": "Node modules persist between runs", "chip": "cache: npm  # in setup-node", "saying": "One. Cache dependencies. Setup node with cache npm persists modules between runs."},
+        {"title": "Path filters", "body": "Docs-only pushes skip CI", "chip": "paths-ignore: ['docs/**']", "saying": "Two. Path filters skip the whole pipeline when only documentation changes."},
+        {"title": "Fail fast", "body": "Lint and test in parallel", "chip": "jobs: lint: / test: / build:", "saying": "Three. Run lint, test, and build as parallel jobs, so failures surface in seconds."}
+      ],
+      "cta": {"text": "Follow for freelance automation daily", "saying": "Follow for one GitHub freelancing automation, every day."},
+      "hashtags": ["github", "ci", "performance", "devops", "automation"]
+    },
+    {
+      "hook": {"text": "The free client dashboard that replaces Notion", "saying": "There is a free client dashboard built into GitHub that can replace Notion."},
+      "tips": [
+        {"title": "GitHub Projects", "body": "Kanban wired to real issues", "chip": "Projects beta -> board view", "saying": "One. GitHub Projects gives a kanban board wired directly to the real issues."},
+        {"title": "Auto status", "body": "Cards move when PRs merge", "chip": "when: PR merges -> status: Done", "saying": "Two. Cards move themselves. Merged pull requests flip tasks to done automatically."},
+        {"title": "Client view", "body": "Read-only progress they can check", "chip": "invite client as read-only", "saying": "Three. Invite the client read only, and they check progress without ever pinging you."}
+      ],
+      "cta": {"text": "Save this. Follow for daily automations", "saying": "Save this one, and follow for a new automation tomorrow."},
+      "hashtags": ["github", "projectmanagement", "freelance", "clients", "kanban"]
+    },
+    {
+      "hook": {"text": "Release notes nobody has to write", "saying": "Release notes that write themselves, straight from your commit history."},
+      "tips": [
+        {"title": "Tag = release", "body": "Push a tag, notes appear", "chip": "gh release create v1.2.0", "saying": "One. Push a tag, and GitHub assembles the release with notes attached."},
+        {"title": "Auto notes", "body": "Commits grouped by label", "chip": "generate-release-notes: true", "saying": "Two. Auto generated notes group features and fixes from your commit messages."},
+        {"title": "Client changelog", "body": "Professional update history", "chip": "v1.2.0 — What's New", "saying": "Three. Clients get a professional changelog, and you never wrote a word of it."}
+      ],
+      "cta": {"text": "Follow for freelance automation daily", "saying": "Follow for one GitHub freelancing automation, every day."},
+      "hashtags": ["github", "releases", "changelog", "freelance", "automation"]
+    },
+    {
+      "hook": {"text": "Performance budgets that fail the build", "saying": "Performance budgets that actually fail the build when a client site gets slow."},
+      "tips": [
+        {"title": "Lighthouse CI", "body": "Audits every deploy, scores gates", "chip": "uses: treosh/lighthouse-ci-action", "saying": "One. Lighthouse CI audits every deploy and gates the merge on the score."},
+        {"title": "Budgets", "body": "Over 200KB JS? Build fails", "chip": "assertions: resourceSize: <=200kb", "saying": "Two. Set budgets. If the JavaScript bundle passes two hundred kilobytes, the build fails."},
+        {"title": "Catch regressions", "body": "Slow code never reaches clients", "chip": "perf regression -> red X on PR", "saying": "Three. Performance regressions get a red X on the pull request, before the client ever sees them."}
+      ],
+      "cta": {"text": "Save this. Follow for daily automations", "saying": "Save this one, and follow for a new automation tomorrow."},
+      "hashtags": ["lighthouse", "performance", "github", "webdev", "automation"]
+    },
+    {
+      "hook": {"text": "A bot that greets every new client issue", "saying": "A bot that greets every new client issue so you never look unresponsive."},
+      "tips": [
+        {"title": "Welcome bot", "body": "First reply lands in seconds", "chip": "actions/first-interaction", "saying": "One. First interaction replies to a client's very first issue within seconds."},
+        {"title": "Set expectations", "body": "Auto-reply states your SLA", "chip": "\"We reply within 24 hours\"", "saying": "Two. The auto reply states your response time, so expectations are set instantly."},
+        {"title": "Label triage", "body": "Questions routed from bugs", "chip": "issue_comment -> auto-label", "saying": "Three. Auto labeling separates questions from bugs, keeping your triage honest."}
+      ],
+      "cta": {"text": "Follow for freelance automation daily", "saying": "Follow for one GitHub freelancing automation, every day."},
+      "hashtags": ["github", "bots", "clients", "freelance", "automation"]
+    },
+    {
+      "hook": {"text": "Screenshot diffs catch design breaks overnight", "saying": "Screenshot diffs catch design breaks overnight, before the client ever sees them."},
+      "tips": [
+        {"title": "Visual tests", "body": "Every page screenshotted per run", "chip": "uses: percy/screenshot", "saying": "One. Each CI run screenshots every page of the client site automatically."},
+        {"title": "Pixel diff", "body": "Changed pixels get flagged red", "chip": "diff threshold: 0.1%", "saying": "Two. Changed pixels get flagged in red, directly on the pull request."},
+        {"title": "Regression net", "body": "Layout bugs die before deploy", "chip": "footer shift 4px -> blocked", "saying": "Three. Even a four pixel footer shift blocks the deploy. Layout bugs stop shipping."}
+      ],
+      "cta": {"text": "Save this. Follow for daily automations", "saying": "Save this one, and follow for a new automation tomorrow."},
+      "hashtags": ["testing", "visualregression", "github", "webdev", "automation"]
+    },
+    {
+      "hook": {"text": "One command, full client status report", "saying": "One terminal command produces a full status report for every client."},
+      "tips": [
+        {"title": "gh CLI", "body": "Query repos without the browser", "chip": "gh issue list --repo client/site", "saying": "One. The gh CLI queries every repo straight from the terminal, no browser needed."},
+        {"title": "Report script", "body": "Open bugs, aging PRs, deploys", "chip": "gh pr list --state open --json", "saying": "Two. A small script pulls open bugs, aging pull requests, and last deploy times."},
+        {"title": "Weekly digest", "body": "Monday email writes itself", "chip": "cron sunday 6pm -> email", "saying": "Three. Schedule it Sunday night, and your Monday status email writes itself."}
+      ],
+      "cta": {"text": "Follow for freelance automation daily", "saying": "Follow for one GitHub freelancing automation, every day."},
+      "hashtags": ["ghcli", "github", "freelance", "reporting", "automation"]
+    },
+    {
+      "hook": {"text": "Branch protection saves you from yourself", "saying": "Branch protection saves you from pushing straight to production at midnight."},
+      "tips": [
+        {"title": "Protect main", "body": "No direct pushes, ever", "chip": "require PR before merge", "saying": "One. Protect main. No direct pushes, everything goes through a pull request."},
+        {"title": "Green required", "body": "CI must pass to merge", "chip": "required check: build", "saying": "Two. Make CI required. Nobody merges anything that does not pass the checks."},
+        {"title": "Client trust", "body": "Stable main = stable invoices", "chip": "main is always deployable", "saying": "Three. Main stays always deployable, which keeps clients trusting you."}
+      ],
+      "cta": {"text": "Save this. Follow for daily automations", "saying": "Save this one, and follow for a new automation tomorrow."},
+      "hashtags": ["github", "branchprotection", "devops", "freelance", "bestpractices"]
+    },
+    {
+      "hook": {"text": "CODEOWNERS: reviews find the right person", "saying": "CODEOWNERS routes every review to exactly the right person automatically."},
+      "tips": [
+        {"title": "Own your areas", "body": "Payments code reviews you", "chip": "/src/payments/ @you", "saying": "One. Claim your folders. Any change to payments code requests your review automatically."},
+        {"title": "Client reviewers", "body": "Their team approves their bits", "chip": "/content/ @client-team", "saying": "Two. The client's own team gets pulled in for their content sections."},
+        {"title": "No hunting", "body": "Reviewers appear by themselves", "chip": "auto-requested on PR open", "saying": "Three. No more hunting for reviewers in chat. They appear on the pull request by themselves."}
+      ],
+      "cta": {"text": "Follow for freelance automation daily", "saying": "Follow for one GitHub freelancing automation, every day."},
+      "hashtags": ["codeowners", "github", "codereview", "freelance", "automation"]
+    },
+    {
+      "hook": {"text": "Test every browser while you get coffee", "saying": "Test your client site in every browser, while you go get coffee."},
+      "tips": [
+        {"title": "Matrix builds", "body": "Same tests, many browsers", "chip": "matrix: browser: [chrome, firefox, safari]", "saying": "One. Matrix builds run your exact test suite across Chrome, Firefox, and Safari in parallel."},
+        {"title": "Parallel power", "body": "3 browsers, 1x wall time", "chip": "jobs spawn per matrix value", "saying": "Two. They run in parallel, so three browsers cost the same wall clock time as one."},
+        {"title": "No device farm", "body": "Free on public repos", "chip": "cost: $0 on public repos", "saying": "Three. No device farm subscription. It is free on public repositories."}
+      ],
+      "cta": {"text": "Save this. Follow for daily automations", "saying": "Save this one, and follow for a new automation tomorrow."},
+      "hashtags": ["testing", "github", "crossbrowser", "webdev", "automation"]
+    },
+    {
+      "hook": {"text": "Handovers clients can actually read", "saying": "Project handovers your clients can actually read, generated from your repo."},
+      "tips": [
+        {"title": "Docs in repo", "body": "README is the contract", "chip": "README.md + /docs", "saying": "One. Keep docs in the repo. The README becomes the single source of truth."},
+        {"title": "Auto publish", "body": "Docs site builds on merge", "chip": "mkdocs + deploy-pages", "saying": "Two. Wire MkDocs to Pages, and documentation publishes itself on every merge."},
+        {"title": "Searchable", "body": "Client finds answers, not you", "chip": "full-text search included", "saying": "Three. Searchable docs mean the client finds their own answers instead of emailing you."}
+      ],
+      "cta": {"text": "Follow for freelance automation daily", "saying": "Follow for one GitHub freelancing automation, every day."},
+      "hashtags": ["documentation", "github", "freelance", "handover", "clients"]
+    },
+    {
+      "hook": {"text": "The merge queue that keeps main green", "saying": "The merge queue is how big teams keep main green, and it works for one person too."},
+      "tips": [
+        {"title": "Queue merges", "body": "PRs merge one by one, tested", "chip": "merge queue: enable", "saying": "One. A merge queue merges pull requests one at a time, retesting each batch."},
+        {"title": "No bad combo", "body": "Two green PRs can break together", "chip": "batch = PR + full test run", "saying": "Two. Two individually green pull requests can still break together. The queue catches that."},
+        {"title": "Always shippable", "body": "Deploy from main any moment", "chip": "main: permanently deployable", "saying": "Three. Main is permanently shippable, so you can deploy at any moment of any day."}
+      ],
+      "cta": {"text": "Save this. Follow for daily automations", "saying": "Save this one, and follow for a new automation tomorrow."},
+      "hashtags": ["github", "mergequeue", "devops", "ci", "automation"]
+    },
+    {
+      "hook": {"text": "Deploy pings your phone, not your anxiety", "saying": "Every deploy pings your phone, so you stop checking the site manually."},
+      "tips": [
+        {"title": "Post-deploy hook", "body": "One job step at the end", "chip": "- run: curl $WEBHOOK_URL", "saying": "One. A single webhook step at the end of the workflow fires when the deploy lands."},
+        {"title": "Rich alerts", "body": "Commit, author, and live URL", "chip": "slack/discord/telegram embed", "saying": "Two. The alert includes commit, author, and live URL, straight into Slack or Telegram."},
+        {"title": "Fail alerts too", "body": "Red builds wake you up", "chip": "if: failure() -> alert", "saying": "Three. Wire a failure condition too, so broken deploys find you before clients do."}
+      ],
+      "cta": {"text": "Follow for freelance automation daily", "saying": "Follow for one GitHub freelancing automation, every day."},
+      "hashtags": ["github", "notifications", "devops", "freelance", "automation"]
+    },
+    {
+      "hook": {"text": "Cut your Actions bill to basically zero", "saying": "Cut your GitHub Actions bill down to basically zero with three settings."},
+      "tips": [
+        {"title": "Retention", "body": "Old artifacts auto-purge", "chip": "retention-days: 7", "saying": "One. Set artifact retention to seven days. Storage charges evaporate."},
+        {"title": "Timeouts", "body": "Stuck jobs die at 10 minutes", "chip": "timeout-minutes: 10", "saying": "Two. Hard timeouts kill stuck jobs at ten minutes instead of burning an hour."},
+        {"title": "Concurrency", "body": "Duplicate runs cancel themselves", "chip": "concurrency: cancel-in-progress: true", "saying": "Three. Concurrency cancels duplicate runs, so you never pay twice for one deploy."}
+      ],
+      "cta": {"text": "Save this. Follow for daily automations", "saying": "Save this one, and follow for a new automation tomorrow."},
+      "hashtags": ["github", "costs", "devops", "efficiency", "automation"]
+    },
+    {
+      "hook": {"text": "Client data backed up to Releases nightly", "saying": "Client data backed up every night to GitHub Releases, for free."},
+      "tips": [
+        {"title": "Cron backup", "body": "3 AM dump, zero babysitting", "chip": "cron: '0 21 * * *' # UTC", "saying": "One. A scheduled job dumps the database every night while everyone sleeps."},
+        {"title": "Attach to release", "body": "Releases are free storage", "chip": "gh release upload backup-2026-11-08", "saying": "Two. Attach the dump to a dated release. Public repos get this storage free."},
+        {"title": "Restore drill", "body": "Monthly test restore job", "chip": "restore test: pass/fail check", "saying": "Three. Run a monthly restore test. A backup you have never restored is not a backup."}
+      ],
+      "cta": {"text": "Follow for freelance automation daily", "saying": "Follow for one GitHub freelancing automation, every day."},
+      "hashtags": ["backup", "github", "devops", "freelance", "automation"]
+    },
+    {
+      "hook": {"text": "Link previews that sell your portfolio clicks", "saying": "Auto-generated link previews that make your portfolio links sell themselves."},
+      "tips": [
+        {"title": "OG images", "body": "A generated card per project", "chip": "og-image.png 1200x630", "saying": "One. Every project page gets a generated 1200 by 630 open graph card."},
+        {"title": "Auto generation", "body": "Workflow renders cards on deploy", "chip": "puppeteer screenshot -> /public/og", "saying": "Two. A workflow renders them with Puppeteer on every deploy, no design time."},
+        {"title": "Click magnet", "body": "Rich preview = more profile visits", "chip": "engagement: +30-40% typical", "saying": "Three. Rich previews lift clicks by a third. Your shared links start selling you."}
+      ],
+      "cta": {"text": "Save this. Follow for daily automations", "saying": "Save this one, and follow for a new automation tomorrow."},
+      "hashtags": ["opengraph", "portfolio", "github", "freelance", "automation"]
+    },
+    {
+      "hook": {"text": "Commit messages clients can actually read", "saying": "Commit messages clients can actually read, enforced by a robot."},
+      "tips": [
+        {"title": "Conventional", "body": "feat: fix: chore: format", "chip": "feat(cart): add quantity stepper", "saying": "One. Conventional commits. Every message starts with a type like feat or fix."},
+        {"title": "Lint them", "body": "Bad message blocks the merge", "chip": "commitlint on push", "saying": "Two. Commitlint rejects any message that breaks the format, right in CI."},
+        {"title": "Readable history", "body": "The log becomes documentation", "chip": "git log -> human changelog", "saying": "Three. The git log becomes documentation, and release notes generate themselves."}
+      ],
+      "cta": {"text": "Follow for freelance automation daily", "saying": "Follow for one GitHub freelancing automation, every day."},
+      "hashtags": ["commits", "commitlint", "github", "bestpractices", "automation"]
+    },
+    {
+      "hook": {"text": "Milestones stop client scope creep", "saying": "Milestones are the polite way to stop client scope creep."},
+      "tips": [
+        {"title": "Scope buckets", "body": "New ask = new milestone", "chip": "milestone: Phase 2 (paid)", "saying": "One. Every scope bucket becomes a milestone, with its own date and price."},
+        {"title": "Pull requests map", "body": "PRs reference the milestone", "chip": "linked PRs per milestone", "saying": "Two. Pull requests link to milestones, so progress is visible in real numbers."},
+        {"title": "The talk", "body": "It's Phase 2, here's the quote", "chip": "\"great idea -> milestone #2\"", "saying": "Three. When a new idea appears, it is a great idea for phase two, with a quote attached."}
+      ],
+      "cta": {"text": "Save this. Follow for daily automations", "saying": "Save this one, and follow for a new automation tomorrow."},
+      "hashtags": ["scopecreep", "github", "freelance", "clients", "milestones"]
+    },
+    {
+      "hook": {"text": "GITHUB_TOKEN: the key that can't leak", "saying": "There is a token in every workflow run that cannot leak, and you should use it."},
+      "tips": [
+        {"title": "Auto-issued", "body": "Fresh token per job, expires", "chip": "GITHUB_TOKEN: auto-created", "saying": "One. GITHUB_TOKEN is created fresh for each job and expires when the job ends."},
+        {"title": "Least privilege", "body": "Grant only what the step needs", "chip": "permissions: contents: read", "saying": "Two. Declare minimal permissions per job. Read only unless something needs write."},
+        {"title": "No more secrets", "body": "Delete your long-lived PATs", "chip": "/* delete the 2-year-old PAT */", "saying": "Three. You can delete those long lived personal access tokens sitting in your secrets."}
+      ],
+      "cta": {"text": "Follow for freelance automation daily", "saying": "Follow for one GitHub freelancing automation, every day."},
+      "hashtags": ["security", "github", "devops", "freelance", "tokens"]
+    },
+    {
+      "hook": {"text": "Free comments on your client's blog", "saying": "Add comments to your client's static blog for free, with zero servers to run."},
+      "tips": [
+        {"title": "giscus", "body": "Comments stored in Discussions", "chip": "giscus.app -> embed snippet", "saying": "One. Giscus stores comments in GitHub Discussions and embeds anywhere."},
+        {"title": "No backend", "body": "Pure script on the static site", "chip": "<script src=giscus ...>", "saying": "Two. It is one script tag on the static site. No database, no server, no bill."},
+        {"title": "Client moderation", "body": "They moderate from GitHub UI", "chip": "moderate via Discussions tab", "saying": "Three. The client moderates from a GitHub tab, and you never touch it again."}
+      ],
+      "cta": {"text": "Save this. Follow for daily automations", "saying": "Save this one, and follow for a new automation tomorrow."},
+      "hashtags": ["giscus", "github", "staticsites", "webdev", "freelance"]
+    },
+    {
+      "hook": {"text": "Status badges that close clients for you", "saying": "Status badges on your portfolio repos quietly close clients for you."},
+      "tips": [
+        {"title": "Live proof", "body": "Build passing, on every repo", "chip": "![CI](repo/actions/workflows/ci.yml)", "saying": "One. A passing CI badge on the repo is live proof your code is professionally maintained."},
+        {"title": "Deploy badge", "body": "Version + uptime at a glance", "chip": "![release](..release..)", "saying": "Two. Release and deploy badges show version history and uptime at a glance."},
+        {"title": "Trust signal", "body": "Differentiator vs cheap bids", "chip": "client sees: 'this one tests'", "saying": "Three. Against cheaper bids, this is the difference. Clients see the cheaper one does not test."}
+      ],
+      "cta": {"text": "Follow for freelance automation daily", "saying": "Follow for one GitHub freelancing automation, every day."},
+      "hashtags": ["github", "badges", "portfolio", "freelance", "trust"]
+    },
+    {
+      "hook": {"text": "Your GitHub profile IS a landing page", "saying": "Your GitHub profile page is a free landing page, and most developers waste it."},
+      "tips": [
+        {"title": "Profile README", "body": "Special repo shows on profile", "chip": "repo: yourusername/yourusername", "saying": "One. A repo named after your username puts a full README on your profile."},
+        {"title": "Offer, not bio", "body": "Lead with what you build for whom", "chip": "\"I ship booking apps for gyms\"", "saying": "Two. Lead with the offer, not a bio. Say what you build and for whom."},
+        {"title": "Proof stack", "body": "Pinned repos + live links", "chip": "pinned: 6 repos w/ live demos", "saying": "Three. Pin six repos with live demos. Proof beats adjectives every single time."}
+      ],
+      "cta": {"text": "Save this. Follow for daily automations", "saying": "Save this one, and follow for a new automation tomorrow."},
+      "hashtags": ["github", "personalbranding", "freelance", "portfolio", "career"]
+    },
+    {
+      "hook": {"text": "Turn stars into sponsors money", "saying": "Turn repository stars into monthly sponsor money, the laziest passive income in dev."},
+      "tips": [
+        {"title": "Sponsors on", "body": "One toggle, payment link live", "chip": "github.com/sponsors -> enable", "saying": "One. Enable GitHub Sponsors and your payment link goes live with one toggle."},
+        {"title": "Tiers", "body": "$5 shoutout to $99 consulting", "chip": "tiers: 5 / 25 / 99 monthly", "saying": "Two. Build tiers from a five dollar shoutout up to monthly consulting hours."},
+        {"title": "README ask", "body": "The button only works if seen", "chip": "\"Sponsor this project ->\"", "saying": "Three. Put the sponsor ask in the README. The button only converts if people actually see it."}
+      ],
+      "cta": {"text": "Follow for freelance automation daily", "saying": "Follow for one GitHub freelancing automation, every day."},
+      "hashtags": ["githubsponsors", "passiveincome", "opensource", "freelance", "money"]
+    },
+    {
+      "hook": {"text": "Portfolio that updates itself", "saying": "A portfolio website that updates itself every time you ship something new."},
+      "tips": [
+        {"title": "Data from API", "body": "Repos feed the portfolio live", "chip": "GET /users/you/repos?sort=pushed", "saying": "One. The portfolio reads your latest pushed repos from the GitHub API."},
+        {"title": "Cron rebuild", "body": "Site rebuilds every morning", "chip": "cron: '0 5 * * *'", "saying": "Two. A nightly rebuild means the site refreshes itself while you sleep."},
+        {"title": "Always current", "body": "Ship Saturday, live Sunday", "chip": "zero manual portfolio edits", "saying": "Three. Ship something Saturday and it is on your portfolio Sunday. Zero manual edits."}
+      ],
+      "cta": {"text": "Save this. Follow for daily automations", "saying": "Save this one, and follow for a new automation tomorrow."},
+      "hashtags": ["portfolio", "github", "automation", "freelance", "passiveincome"]
+    }
+  ]
+}

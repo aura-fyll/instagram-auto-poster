@@ -1,0 +1,318 @@
+{
+  "topic": "web-design",
+  "brand_pill": "DAILY WEB DESIGN",
+  "handle": "@visualhookdesign",
+  "voice": "en-US-AvaNeural",
+  "episodes": [
+    {
+      "hook": {"text": "3 CSS features that make sites feel expensive", "saying": "These three CSS features instantly make a website feel expensive."},
+      "tips": [
+        {"title": "Fluid type", "body": "One line kills every font media query", "chip": "font-size: clamp(1rem, 2.2vw, 1.25rem);", "saying": "One. Fluid type. Clamp scales text smoothly between screens, so every media query for fonts disappears."},
+        {"title": "Smooth scrolls", "body": "Native momentum without a library", "chip": "html { scroll-behavior: smooth; }", "saying": "Two. Smooth scrolling. One line of CSS gives native momentum scrolling with zero JavaScript libraries."},
+        {"title": "Balanced headlines", "body": "No more orphan words on line 3", "chip": "h1 { text-wrap: balance; }", "saying": "Three. Balanced headlines. Text wrap balance stops those ugly single orphan words hanging at the end of a headline."}
+      ],
+      "cta": {"text": "Follow for one design tip every day", "saying": "Follow for one design tip, every single day."},
+      "hashtags": ["webdesign", "css", "frontend", "uidesign", "webdev"]
+    },
+    {
+      "hook": {"text": "The parent selector that changed CSS forever", "saying": "The parent selector finally exists, and it changes how you write CSS forever."},
+      "tips": [
+        {"title": ":has() parent", "body": "Style a parent from its child", "chip": ".card:has(img) { padding: 0; }", "saying": "One. Has. It styles a parent based on its children, something CSS could never do before."},
+        {"title": "Smart forms", "body": "Mark invalid inputs only when touched", "chip": "input:user-invalid { border-color: red; }", "saying": "Two. User invalid. It only marks a field red after the user actually touches it, not before."},
+        {"title": "Conditionals", "body": "If-else logic in pure CSS", "chip": ".grid:has(> :nth-child(3)) { gap: 8px; }", "saying": "Three. You can now write real if-else logic in pure CSS, no JavaScript needed at all."}
+      ],
+      "cta": {"text": "Save this. Follow for daily tips", "saying": "Save this one, and follow for a new tip tomorrow."},
+      "hashtags": ["css", "webdesign", "frontend", "coding", "webdev"]
+    },
+    {
+      "hook": {"text": "Page transitions with ZERO JavaScript", "saying": "You can now get page transitions with zero JavaScript. Here is how."},
+      "tips": [
+        {"title": "View transitions", "body": "Animate between pages natively", "chip": "@view-transition { navigation: auto; }", "saying": "One. View transitions. One line gives smooth cross-page animations, natively in the browser."},
+        {"title": "Custom fades", "body": "Design your own transition style", "chip": "::view-transition-old(root) { animation: 300ms fade; }", "saying": "Two. Custom fades. Two pseudo elements let you design exactly how pages enter and leave."},
+        {"title": "Fallback safe", "body": "Older browsers just skip it", "chip": "@supports (view-transition-name: none) { ... }", "saying": "Three. It is fallback safe. Older browsers simply skip the animation, and everything still works."}
+      ],
+      "cta": {"text": "Follow for one design tip every day", "saying": "Follow for one design tip, every single day."},
+      "hashtags": ["webdesign", "css", "javascript", "frontend", "webdev"]
+    },
+    {
+      "hook": {"text": "Scroll animations without a single line of JS", "saying": "Scroll animations without a single line of JavaScript. Native CSS scroll timelines."},
+      "tips": [
+        {"title": "View timeline", "body": "Elements animate as they enter view", "chip": "animation-timeline: view();", "saying": "One. View timeline. Elements animate as they scroll into view, driven by the browser itself."},
+        {"title": "Scroll timeline", "body": "Tie animation to page scroll position", "chip": "animation-timeline: scroll();", "saying": "Two. Scroll timeline. Bind any animation directly to the page scroll position, like a progress bar."},
+        {"title": "Range mapping", "body": "Control exactly when it starts and ends", "chip": "animation-range: entry 10% cover 35%;", "saying": "Three. Range mapping. You control the exact scroll points where the animation starts and ends."}
+      ],
+      "cta": {"text": "Save this. Follow for daily tips", "saying": "Save this one, and follow for a new tip tomorrow."},
+      "hashtags": ["css", "webdesign", "animation", "frontend", "webdev"]
+    },
+    {
+      "hook": {"text": "Media queries are dying. Here's what replaces them", "saying": "Media queries are slowly dying, and this is what replaces them."},
+      "tips": [
+        {"title": "Container queries", "body": "Components respond to their own width", "chip": "@container (min-width: 480px) { ... }", "saying": "One. Container queries. Components now respond to their own width, not the whole screen."},
+        {"title": "Card layouts", "body": "Same card, sidebar or full width", "chip": ".card { container-type: inline-size; }", "saying": "Two. The same card component adapts perfectly, whether it sits in a sidebar or full width."},
+        {"title": "Truly modular", "body": "Drop-in components, zero rewrites", "chip": "container-name: sidebar;", "saying": "Three. Finally, truly modular components you can drop anywhere without rewriting their styles."}
+      ],
+      "cta": {"text": "Follow for one design tip every day", "saying": "Follow for one design tip, every single day."},
+      "hashtags": ["css", "webdesign", "frontend", "responsive", "webdev"]
+    },
+    {
+      "hook": {"text": "Stop your layouts from jumping around", "saying": "Stop your layouts from jumping around while images load."},
+      "tips": [
+        {"title": "aspect-ratio", "body": "Reserve image space before load", "chip": "img { aspect-ratio: 16 / 9; }", "saying": "One. Aspect ratio. Reserve the exact space before the image loads, so nothing shifts."},
+        {"title": "No CLS", "body": "Google ranks you higher for it", "chip": "cls-score: 0", "saying": "Two. Zero layout shift is a Core Web Vital, and Google literally ranks you higher for it."},
+        {"title": "Works everywhere", "body": "Images, videos, iframes, placeholders", "chip": "iframe { aspect-ratio: 4 / 3; }", "saying": "Three. It works on images, videos, and iframes. One property, everything stops jumping."}
+      ],
+      "cta": {"text": "Save this. Follow for daily tips", "saying": "Save this one, and follow for a new tip tomorrow."},
+      "hashtags": ["webdesign", "performance", "css", "webdev", "seo"]
+    },
+    {
+      "hook": {"text": "CSS nesting is here. Your files just got smaller", "saying": "CSS nesting is finally here, and your stylesheets just got way smaller."},
+      "tips": [
+        {"title": "Native nesting", "body": "Sass-style nesting, zero build step", "chip": ".card { & .title { font-weight: 600; } }", "saying": "One. Native nesting. Sass style nesting with zero build step, straight in the browser."},
+        {"title": "& parent", "body": "Target the parent from inside", "chip": "&:hover { border-color: accent; }", "saying": "Two. The ampersand targets the parent selector, exactly like you already know from Sass."},
+        {"title": "Grouped states", "body": "All hover and focus rules in one place", "chip": "@media (width < 640px) { & { gap: 12px; } }", "saying": "Three. Media queries nest too, so every state for a component lives in one single block."}
+      ],
+      "cta": {"text": "Follow for one design tip every day", "saying": "Follow for one design tip, every single day."},
+      "hashtags": ["css", "webdesign", "frontend", "sass", "webdev"]
+    },
+    {
+      "hook": {"text": "The one line that fixes ugly text wrapping", "saying": "This one line of CSS fixes ugly text wrapping on headlines forever."},
+      "tips": [
+        {"title": "Balance", "body": "Even line lengths on headlines", "chip": "h1, h2, h3 { text-wrap: balance; }", "saying": "One. Balance makes headline lines the same length, instead of one long line plus a stub."},
+        {"title": "Pretty paragraphs", "body": "No more ragged last lines", "chip": "p { text-wrap: pretty; }", "saying": "Two. Pretty fixes the last line of paragraphs, killing those single orphan words."},
+        {"title": "Zero cost", "body": "Browser handles it, no JS measuring", "chip": "text-wrap: balance; /* that's it */", "saying": "Three. It is pure browser, no JavaScript measuring, no layout thrash, zero cost."}
+      ],
+      "cta": {"text": "Save this. Follow for daily tips", "saying": "Save this one, and follow for a new tip tomorrow."},
+      "hashtags": ["typography", "css", "webdesign", "uidesign", "frontend"]
+    },
+    {
+      "hook": {"text": "Glassmorphism in 3 lines of real CSS", "saying": "Real glassmorphism, in about three lines of CSS. No images, no hacks."},
+      "tips": [
+        {"title": "The blur", "body": "Frost whatever sits behind", "chip": "backdrop-filter: blur(14px);", "saying": "One. Backdrop blur frosts whatever sits behind the element, like real frosted glass."},
+        {"title": "Transparency", "body": "Let just enough through", "chip": "background: rgb(255 255 255 / 55%);", "saying": "Two. A semi transparent background lets just enough color through the frost."},
+        {"title": "The edge", "body": "A hairline border sells the effect", "chip": "border: 1px solid rgb(255 255 255 / 40%);", "saying": "Three. A one pixel translucent border is what sells the whole effect."}
+      ],
+      "cta": {"text": "Follow for one design tip every day", "saying": "Follow for one design tip, every single day."},
+      "hashtags": ["uidesign", "css", "glassmorphism", "webdesign", "frontend"]
+    },
+    {
+      "hook": {"text": "Dark mode users can tell a lazy one instantly", "saying": "Dark mode users can instantly tell a lazy dark mode. Here is the pro way."},
+      "tips": [
+        {"title": "Variables first", "body": "One source of truth for both themes", "chip": ":root { --ink: #0b0b12; }", "saying": "One. Put every color in CSS variables, so both themes come from one source of truth."},
+        {"title": "Auto switching", "body": "Respect the OS setting by default", "chip": "@media (prefers-color-scheme: dark) { ... }", "saying": "Two. The OS preference media query flips the theme automatically, before they even ask."},
+        {"title": "Shadows dim too", "body": "Dark shadows, not black ones", "chip": "--shadow: rgb(0 0 0 / 45%);", "saying": "Three. Shadows must dim too. Darker, softer shadows in dark mode is the detail pros notice."}
+      ],
+      "cta": {"text": "Save this. Follow for daily tips", "saying": "Save this one, and follow for a new tip tomorrow."},
+      "hashtags": ["darkmode", "css", "webdesign", "uidesign", "webdev"]
+    },
+    {
+      "hook": {"text": "Subgrid: the fix for misaligned cards everywhere", "saying": "Subgrid finally fixes the misaligned card problem every website has."},
+      "tips": [
+        {"title": "Inherit the grid", "body": "Children align to the page grid", "chip": ".card-inner { display: grid; grid-template-rows: subgrid; }", "saying": "One. Subgrid lets a child inherit the parent grid, so card rows align across the whole page."},
+        {"title": "Equal buttons", "body": "CTAs line up on every card", "chip": "grid-row: 3 / 4; /* same row, every card */", "saying": "Two. Call to action buttons land on the exact same line on every card, automatically."},
+        {"title": "No JS hacks", "body": "No equal-height script needed", "chip": "/* delete your equalHeights() */", "saying": "Three. You can delete every equal heights JavaScript hack you have ever shipped."}
+      ],
+      "cta": {"text": "Follow for one design tip every day", "saying": "Follow for one design tip, every single day."},
+      "hashtags": ["css", "grid", "webdesign", "frontend", "layout"]
+    },
+    {
+      "hook": {"text": "The property that stops scroll hijacking", "saying": "This one property stops annoying scroll hijacking, in pure CSS."},
+      "tips": [
+        {"title": "Contain scroll", "body": "Modals stop chaining to the page", "chip": ".modal { overscroll-behavior: contain; }", "saying": "One. Overscroll behavior contain stops a modal from scrolling the page behind it."},
+        {"title": "No bounce", "body": "Kill rubber-band on fixed headers", "chip": "overscroll-behavior-y: none;", "saying": "Two. Kill the rubber band bounce on fixed headers and slide-over panels."},
+        {"title": "Nested scrolls", "body": "Inner lists end where they end", "chip": ".list { overscroll-behavior: contain; }", "saying": "Three. Nested scroll areas simply stop where they stop, instead of dragging the whole page."}
+      ],
+      "cta": {"text": "Save this. Follow for daily tips", "saying": "Save this one, and follow for a new tip tomorrow."},
+      "hashtags": ["css", "uxdesign", "webdesign", "frontend", "webdev"]
+    },
+    {
+      "hook": {"text": "Carousels with no carousel library", "saying": "Build carousels with zero JavaScript and zero libraries. Native CSS snap."},
+      "tips": [
+        {"title": "Scroll snap", "body": "The browser snaps each card", "chip": ".track { scroll-snap-type: x mandatory; }", "saying": "One. Scroll snap. The browser itself snaps cards into place as the user swipes."},
+        {"title": "Snap targets", "body": "Cards center themselves perfectly", "chip": ".card { scroll-snap-align: center; }", "saying": "Two. Each card declares its own snap point, centered, start, or end."},
+        {"title": "Hide the bar", "body": "Clean swipe area, no scrollbar", "chip": ".track::-webkit-scrollbar { display: none; }", "saying": "Three. Hide the scrollbar for a clean swipe area that still feels native on mobile."}
+      ],
+      "cta": {"text": "Follow for one design tip every day", "saying": "Follow for one design tip, every single day."},
+      "hashtags": ["css", "carousels", "webdesign", "frontend", "scrollsnap"]
+    },
+    {
+      "hook": {"text": "Your images are squishing. Fix them for free", "saying": "Your images are squishing and stretching. Here is the free fix."},
+      "tips": [
+        {"title": "object-fit", "body": "Crop, never distort", "chip": "img { object-fit: cover; }", "saying": "One. Object fit cover crops the image to the box instead of squishing it."},
+        {"title": "Position", "body": "Choose which part stays visible", "chip": "object-position: 50% 30%;", "saying": "Two. Object position picks which part of the photo survives the crop, like the face."},
+        {"title": "Fill mode", "body": "For logos that must stretch safe", "chip": "img { object-fit: contain; }", "saying": "Three. Contain mode keeps logos fully visible, letterboxing instead of cropping them."}
+      ],
+      "cta": {"text": "Save this. Follow for daily tips", "saying": "Save this one, and follow for a new tip tomorrow."},
+      "hashtags": ["css", "images", "webdesign", "frontend", "webdev"]
+    },
+    {
+      "hook": {"text": "Flexbox gap replaced every margin hack", "saying": "Flexbox gap quietly replaced every margin hack you learned in 2019."},
+      "tips": [
+        {"title": "Just gap", "body": "Space between items, one property", "chip": ".row { display: flex; gap: 16px; }", "saying": "One. Gap adds space between flex children with one property, no margin tricks."},
+        {"title": "Row & column", "body": "Different spacing per axis", "chip": "gap: 24px 12px; /* row column */", "saying": "Two. Gap takes two values, different spacing for rows and columns at the same time."},
+        {"title": "No edge space", "body": "Kills the classic last-child bug", "chip": "/* delete .item:last-child { margin: 0 } */", "saying": "Three. Gap never adds space at the edges, so the last child margin hack dies forever."}
+      ],
+      "cta": {"text": "Follow for one design tip every day", "saying": "Follow for one design tip, every single day."},
+      "hashtags": ["css", "flexbox", "webdesign", "frontend", "webdev"]
+    },
+    {
+      "hook": {"text": "Free custom form styling, one property", "saying": "Get custom styled checkboxes and radios for free, with one CSS property."},
+      "tips": [
+        {"title": "accent-color", "body": "Brand-colored checkboxes instantly", "chip": "input { accent-color: #635bff; }", "saying": "One. Accent color restyles every checkbox, radio, and range slider in your brand color."},
+        {"title": "Native focus", "body": "Keyboard states keep working", "chip": "/* focus rings stay native */", "saying": "Two. All native focus and keyboard states keep working, which custom builds always break."},
+        {"title": "Zero JS", "body": "No hidden input hacks anymore", "chip": "/* delete appearance: none hacks */", "saying": "Three. Delete your hidden input label hacks. This is one line, accessible by default."}
+      ],
+      "cta": {"text": "Save this. Follow for daily tips", "saying": "Save this one, and follow for a new tip tomorrow."},
+      "hashtags": ["css", "forms", "uidesign", "webdesign", "accessibility"]
+    },
+    {
+      "hook": {"text": "Focus rings that look designed, not default", "saying": "Make focus rings that look designed, not like default browser outlines."},
+      "tips": [
+        {"title": ":focus-visible", "body": "Rings only for keyboard users", "chip": "a:focus-visible { outline: 2px solid accent; }", "saying": "One. Focus visible shows rings only for keyboard users, never on mouse clicks."},
+        {"title": "Offset", "body": "Give the ring breathing room", "chip": "outline-offset: 3px;", "saying": "Two. Outline offset gives the ring a little air, so it reads as a design decision."},
+        {"title": "Never none", "body": "Removing outlines loses users", "chip": "/* outline: 0 — never do this */", "saying": "Three. Never set outline to none. You lose keyboard users, and accessibility audits too."}
+      ],
+      "cta": {"text": "Follow for one design tip every day", "saying": "Follow for one design tip, every single day."},
+      "hashtags": ["accessibility", "css", "uidesign", "webdesign", "a11y"]
+    },
+    {
+      "hook": {"text": "Duotone photos without opening Photoshop", "saying": "Duotone photos straight in the browser, without ever opening Photoshop."},
+      "tips": [
+        {"title": "Blend mode", "body": "Color layers over grayscale", "chip": "img { filter: grayscale(1); }", "saying": "One. Grayscale the image, then stack a color layer over it with a blend mode."},
+        {"title": "Mix blend", "body": "The duotone happens in CSS", "chip": ".tint { mix-blend-mode: screen; }", "saying": "Two. Mix blend screen turns a flat color overlay into a real duotone effect."},
+        {"title": "Live effect", "body": "Change palette per section instantly", "chip": "--duo: #635bff;", "saying": "Three. It is live CSS, so you can swap the duotone palette per section in one variable."}
+      ],
+      "cta": {"text": "Save this. Follow for daily tips", "saying": "Save this one, and follow for a new tip tomorrow."},
+      "hashtags": ["uidesign", "css", "webdesign", "duotone", "frontend"]
+    },
+    {
+      "hook": {"text": "Animated gradient borders, zero JavaScript", "saying": "Animated gradient borders with zero JavaScript and one clever trick."},
+      "tips": [
+        {"title": "Conic gradient", "body": "The border is really the background", "chip": "background: conic-gradient(accent, pink, accent);", "saying": "One. A conic gradient on the padding box becomes the border, once the inner card covers it."},
+        {"title": "Inner mask", "body": "Card sits on top, edge stays lit", "chip": ".inner { margin: 2px; border-radius: inherit; }", "saying": "Two. The inner card sits two pixels inside, so only the glowing edge shows through."},
+        {"title": "Spin it", "body": "Rotate the hue for loading rings", "chip": "animation: spin 3s linear infinite;", "saying": "Three. Animate the gradient angle, and you get spinning loaders or living borders."}
+      ],
+      "cta": {"text": "Follow for one design tip every day", "saying": "Follow for one design tip, every single day."},
+      "hashtags": ["css", "gradients", "uidesign", "webdesign", "frontend"]
+    },
+    {
+      "hook": {"text": "min() and max(): responsive math in CSS", "saying": "Min and max bring real responsive math into CSS, no media queries needed."},
+      "tips": [
+        {"title": "min() picks smaller", "body": "Caps values on big screens", "chip": "width: min(100%, 720px);", "saying": "One. Min picks the smaller value, capping content width on large screens automatically."},
+        {"title": "max() picks larger", "body": "Floors values on tiny screens", "chip": "font-size: max(14px, 2vw);", "saying": "Two. Max floors a value, so text never gets unreadably small on narrow screens."},
+        {"title": "No breakpoints", "body": "One expression, all screens", "chip": "padding: clamp(12px, 4vw, 40px);", "saying": "Three. Combine them with clamp and one expression covers every screen size."}
+      ],
+      "cta": {"text": "Save this. Follow for daily tips", "saying": "Save this one, and follow for a new tip tomorrow."},
+      "hashtags": ["css", "responsive", "webdesign", "frontend", "webdev"]
+    },
+    {
+      "hook": {"text": "Logical properties: CSS for every language", "saying": "Logical properties make your CSS work in English, Arabic, and Japanese alike."},
+      "tips": [
+        {"title": "No left/right", "body": "Say inline and block instead", "chip": "margin-inline: 24px;", "saying": "One. Stop saying left and right. Inline and block flip automatically per writing direction."},
+        {"title": "RTL for free", "body": "Arabic and Hebrew just work", "chip": "padding-block: 16px;", "saying": "Two. Right to left languages like Arabic and Hebrew work with zero extra CSS."},
+        {"title": "Borders too", "body": "Every property has a logical twin", "chip": "border-inline-start: 3px solid accent;", "saying": "Three. Every property has a logical twin, borders, insets, and even corner radii."}
+      ],
+      "cta": {"text": "Follow for one design tip every day", "saying": "Follow for one design tip, every single day."},
+      "hashtags": ["css", "rtl", "i18n", "webdesign", "frontend"]
+    },
+    {
+      "hook": {"text": "Respect users who hate animations", "saying": "Some users genuinely need fewer animations. Respecting them is one media query."},
+      "tips": [
+        {"title": "Reduced motion", "body": "OS-level signal, CSS listens", "chip": "@media (prefers-reduced-motion: reduce) { ... }", "saying": "One. Reduced motion lets the operating system tell your site to calm down."},
+        {"title": "Kill the loops", "body": "Stop infinite animations first", "chip": "animation: none; transition-duration: 0.01s;", "saying": "Two. Kill infinite loops and marquees first, those are the worst offenders."},
+        {"title": "Vestibular care", "body": "Parallax can literally sicken users", "chip": "/* parallax off when requested */", "saying": "Three. Parallax and big slides can literally make vestibular users sick. Respect it."}
+      ],
+      "cta": {"text": "Save this. Follow for daily tips", "saying": "Save this one, and follow for a new tip tomorrow."},
+      "hashtags": ["accessibility", "css", "a11y", "webdesign", "uidesign"]
+    },
+    {
+      "hook": {"text": "Type scale: why pro sites feel calm", "saying": "The type scale is why professional sites feel calm and amateur ones feel noisy."},
+      "tips": [
+        {"title": "Fixed steps", "body": "4 sizes max, no random 19px", "chip": "--t1: 48px; --t2: 32px; --t3: 24px; --t4: 18px;", "saying": "One. Lock four type steps in variables. If a size is not in the scale, it does not ship."},
+        {"title": "Ratio math", "body": "Each step multiplies the last", "chip": "scale: 1.25 (major third)", "saying": "Two. Pick one ratio like 1.25, and let every step multiply the last. Harmony for free."},
+        {"title": "Contrast pairs", "body": "Big jump between h1 and body", "chip": "h1 48 / body 18 — not 30 / 24", "saying": "Three. Make heading and body clearly different. Close sizes read as a mistake."}
+      ],
+      "cta": {"text": "Follow for one design tip every day", "saying": "Follow for one design tip, every single day."},
+      "hashtags": ["typography", "uidesign", "webdesign", "designsystem", "frontend"]
+    },
+    {
+      "hook": {"text": "The 8-point grid makes designs feel intentional", "saying": "The eight point grid is why some designs just feel intentional."},
+      "tips": [
+        {"title": "8s only", "body": "Every space is 8, 16, 24, 32…", "chip": "spacing: 8 16 24 32 48 64", "saying": "One. Every margin and padding comes from the eight point scale, nothing in between."},
+        {"title": "Line heights too", "body": "Text baselines snap to the grid", "chip": "line-height: 24px; /* on 16px text */", "saying": "Two. Line heights snap to the grid too, so text rows align across columns."},
+        {"title": "Why it works", "body": "Rhythm the eye can't see but feels", "chip": "padding: 24px 32px; /* never 26 34 */", "saying": "Three. The eye cannot see the grid, but it absolutely feels the rhythm."}
+      ],
+      "cta": {"text": "Save this. Follow for daily tips", "saying": "Save this one, and follow for a new tip tomorrow."},
+      "hashtags": ["uidesign", "spacing", "webdesign", "designsystem", "layout"]
+    },
+    {
+      "hook": {"text": "Fluid spacing: one padding for all screens", "saying": "One padding value that feels right on every screen size. Fluid spacing."},
+      "tips": [
+        {"title": "Clamp padding", "body": "Grows with viewport, with caps", "chip": "padding: clamp(16px, 4vw, 64px);", "saying": "One. Clamp lets padding grow with the viewport, but caps it at both ends."},
+        {"title": "Section rhythm", "body": "Big vertical air between blocks", "chip": "margin-block: clamp(48px, 10vw, 128px);", "saying": "Two. Big fluid vertical air between sections is the single cheapest premium upgrade."},
+        {"title": "No queries", "body": "Zero breakpoints for spacing", "chip": "/* delete 6 spacing media queries */", "saying": "Three. You can delete every spacing media query you have ever written."}
+      ],
+      "cta": {"text": "Follow for one design tip every day", "saying": "Follow for one design tip, every single day."},
+      "hashtags": ["css", "responsive", "uidesign", "webdesign", "frontend"]
+    },
+    {
+      "hook": {"text": "Responsive grid with NO media queries", "saying": "A fully responsive grid with zero media queries. Auto-fit does it."},
+      "tips": [
+        {"title": "auto-fit", "body": "Columns pack themselves", "chip": "grid-template-columns: repeat(auto-fit, 280px);", "saying": "One. Auto fit packs as many 280 pixel columns as fit, and refits on resize."},
+        {"title": "minmax", "body": "Cards flex between two widths", "chip": "repeat(auto-fit, minmax(240px, 1fr));", "saying": "Two. Minmax lets cards stretch between a floor and equal share, so no gaps appear."},
+        {"title": "No breakpoints", "body": "One rule, phone to ultrawide", "chip": "/* 1 column -> 6 columns, same rule */", "saying": "Three. One rule carries you from a phone to an ultrawide monitor. Zero breakpoints."}
+      ],
+      "cta": {"text": "Save this. Follow for daily tips", "saying": "Save this one, and follow for a new tip tomorrow."},
+      "hashtags": ["css", "grid", "responsive", "webdesign", "frontend"]
+    },
+    {
+      "hook": {"text": "color-mix(): tints without a color calculator", "saying": "Color mix generates perfect tints and shades without any color calculator."},
+      "tips": [
+        {"title": "Mix any two", "body": "Percentages, not hex math", "chip": "color-mix(in oklab, accent 20%, white);", "saying": "One. Color mix blends any two colors by percent, no more hex math in your head."},
+        {"title": "Hover states", "body": "A darker accent, on demand", "chip": "background: color-mix(in oklab, accent 85%, black);", "saying": "Two. Generate a darker hover state from the accent itself, always consistent."},
+        {"title": "Alpha variant", "body": "Translucent brand color instantly", "chip": "color-mix(in srgb, accent 60%, transparent);", "saying": "Three. Blend with transparent for an alpha version of any brand color instantly."}
+      ],
+      "cta": {"text": "Follow for one design tip every day", "saying": "Follow for one design tip, every single day."},
+      "hashtags": ["css", "color", "uidesign", "webdesign", "frontend"]
+    },
+    {
+      "hook": {"text": "Sticky headers that don't cover your content", "saying": "Sticky headers that stop covering your content, done the right way."},
+      "tips": [
+        {"title": "position: sticky", "body": "Sticks only inside its parent", "chip": ".header { position: sticky; top: 0; }", "saying": "One. Sticky pins the header within its parent section, then lets it scroll away."},
+        {"title": "scroll-margin", "body": "Anchors land below the header", "chip": "[id] { scroll-margin-top: 84px; }", "saying": "Two. Scroll margin makes anchor jumps land below the sticky bar instead of under it."},
+        {"title": "Shrink on scroll", "body": "Compact mode after a threshold", "chip": "animation-timeline: scroll();", "saying": "Three. Pair it with a scroll timeline, and the header shrinks after the hero."}
+      ],
+      "cta": {"text": "Save this. Follow for daily tips", "saying": "Save this one, and follow for a new tip tomorrow."},
+      "hashtags": ["css", "layout", "webdesign", "frontend", "ux"]
+    },
+    {
+      "hook": {"text": "Micro-interactions: the 100ms that sell a site", "saying": "One hundred milliseconds of motion is what sells a site as premium."},
+      "tips": [
+        {"title": "transform only", "body": "GPU-friendly, never janky", "chip": "transition: transform 120ms ease-out;", "saying": "One. Only transition transform and opacity. Everything else janks."},
+        {"title": "Origin matters", "body": "Scale from the click point", "chip": "transform-origin: bottom center;", "saying": "Two. Set transform origin deliberately, so cards grow from where the user expects."},
+        {"title": "Tiny times", "body": "100–200ms, never 600ms", "chip": "button:hover { transform: translateY(-1px); }", "saying": "Three. Keep hovers between one hundred and two hundred milliseconds. Slow motion reads broken."}
+      ],
+      "cta": {"text": "Follow for one design tip every day", "saying": "Follow for one design tip, every single day."},
+      "hashtags": ["uidesign", "css", "animation", "webdesign", "microinteractions"]
+    },
+    {
+      "hook": {"text": "Fonts that load fast: the font-display trick", "saying": "Stop invisible text while fonts load. The font display trick fixes it."},
+      "tips": [
+        {"title": "font-display swap", "body": "System font shows immediately", "chip": "@font-face { font-display: swap; }", "saying": "One. Font display swap shows the system font instantly, then swaps in yours."},
+        {"title": "Preload one weight", "body": "The weight above the fold only", "chip": "<link rel=preload as=font crossorigin>", "saying": "Two. Preload only the one weight used above the fold, not the whole family."},
+        {"title": "Subset glyphs", "body": "Smaller files, faster paint", "chip": "unicode-range: U+0000-00FF;", "saying": "Three. Subset the glyphs you actually use, and the font file shrinks dramatically."}
+      ],
+      "cta": {"text": "Save this. Follow for daily tips", "saying": "Save this one, and follow for a new tip tomorrow."},
+      "hashtags": ["performance", "typography", "webdesign", "css", "webdev"]
+    },
+    {
+      "hook": {"text": "Empty states people actually enjoy", "saying": "Empty states are where most apps feel broken. Design them and users stay."},
+      "tips": [
+        {"title": "Explain why", "body": "Say what the emptiness means", "chip": "\"No invoices yet — create your first\"", "saying": "One. Explain why it is empty and what happens next. Never just a blank box."},
+        {"title": "One action", "body": "A single primary button", "chip": "[ + New invoice ]", "saying": "Two. Offer exactly one primary action. Empty states are a doorway, not a dead end."},
+        {"title": "Personality", "body": "A little copy goes a long way", "chip": " illustration + 1 friendly line ", "saying": "Three. A small illustration or one friendly line of copy makes emptiness feel designed."}
+      ],
+      "cta": {"text": "Follow for one design tip every day", "saying": "Follow for one design tip, every single day."},
+      "hashtags": ["uxdesign", "uidesign", "webdesign", "productdesign", "empty"]
+    }
+  ]
+}
