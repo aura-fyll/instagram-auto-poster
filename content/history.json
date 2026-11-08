@@ -2438,6 +2438,29 @@
       "pinterest_pin_id": "1021543128001437250",
       "pinterest_board_id": "1021543196668085616",
       "pinterest_published_at": "2026-11-07T13:46:56Z"
+    },
+    {
+      "id": "2026-11-08-video",
+      "date": "2026-11-08",
+      "slot": "video",
+      "type": "video",
+      "topic": "github-freelancing",
+      "topic_pill": "GITHUB x FREELANCING",
+      "episode_number": 9,
+      "hook_text": "Release notes nobody has to write",
+      "image_headline": "Release notes nobody has to write",
+      "seed_fact": "",
+      "image_style": "video_reel",
+      "status": "published",
+      "media_id": "18109353209568969",
+      "pinterest_pin_id": "1021543128001456501",
+      "video_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/download/daily/2026-11-08/github-freelancing.mp4",
+      "cover_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/download/daily/2026-11-08/github-freelancing-cover.jpg",
+      "release_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/tag/daily/2026-11-08",
+      "duration": 22.13,
+      "size_mb": 2.4,
+      "detail": "Video Reel (IG) + cover pin (Pinterest). Topic: github-freelancing",
+      "recorded_at": "2026-11-08T02:54:21Z"
     }
   ]
 }
