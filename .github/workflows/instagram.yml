@@ -1,12 +1,13 @@
 name: Instagram + Pinterest Automation
 
-# Manual trigger + 3 daily scheduled runs at peak IST engagement hours.
-# Each day: 2 images + 1 video, all cross-posted to Instagram + Pinterest.
+# Manual trigger + 4 daily scheduled runs at peak IST engagement hours.
+# Each day: 2 videos + 2 images, all cross-posted to Instagram + Pinterest.
 #
 # Cron is in UTC. IST = UTC + 5:30.
-#   08:00 IST = 02:30 UTC  -> slot 1 (morning IMAGE)
-#   12:30 IST = 07:00 UTC  -> slot 2 (lunch VIDEO — alternates web-design / github-freelancing)
-#   18:00 IST = 12:30 UTC  -> slot 3 (evening IMAGE)
+#   08:00 IST = 02:30 UTC  -> slot 1 (VIDEO: web-design)
+#   12:30 IST = 07:00 UTC  -> slot 2 (IMAGE)
+#   16:00 IST = 10:30 UTC  -> slot 3 (VIDEO: github-freelancing)
+#   20:30 IST = 15:00 UTC  -> slot 4 (IMAGE)
 on:
   workflow_dispatch:
     inputs:
@@ -15,11 +16,15 @@ on:
         required: false
         default: ""
       slot_override:
-        description: "Slot 1-3 (1=morning image, 2=lunch video, 3=evening image). Defaults to auto."
+        description: "Slot 1-4 (1=video-web, 2=image, 3=video-github, 4=image). Defaults to auto."
         required: false
         default: ""
       mode_override:
         description: "Force mode: image or video (overrides slot-based detection)."
+        required: false
+        default: ""
+      topic_override:
+        description: "Force video topic: web-design or github-freelancing (only for video mode)."
         required: false
         default: ""
       dry_run:
@@ -29,9 +34,10 @@ on:
         default: false
 
   schedule:
-    - cron: "30 2 * * *"    # 08:00 IST - slot 1 (morning IMAGE)
-    - cron: "0 7 * * *"     # 12:30 IST - slot 2 (lunch VIDEO)
-    - cron: "30 12 * * *"   # 18:00 IST - slot 3 (evening IMAGE)
+    - cron: "30 2 * * *"    # 08:00 IST - slot 1 (VIDEO: web-design)
+    - cron: "0 7 * * *"     # 12:30 IST - slot 2 (IMAGE)
+    - cron: "30 10 * * *"   # 16:00 IST - slot 3 (VIDEO: github-freelancing)
+    - cron: "0 15 * * *"    # 20:30 IST - slot 4 (IMAGE)
 
 permissions:
   contents: write
@@ -43,7 +49,7 @@ concurrency:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 25    # increased for video rendering
+    timeout-minutes: 25
 
     env:
       COMPOSIO_API_KEY: ${{ secrets.COMPOSIO_API_KEY }}
@@ -53,7 +59,6 @@ jobs:
       GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
       PINTEREST_CONNECTED_ACCOUNT_ID: ${{ secrets.PINTEREST_CONNECTED_ACCOUNT_ID }}
       PINTEREST_USER_ID: ${{ secrets.PINTEREST_USER_ID }}
-      # GITHUB_TOKEN is needed by publish/release.py to upload videos to GitHub Releases
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     steps:
@@ -79,12 +84,11 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-          # Ensure ffmpeg + ffprobe are available (needed for video rendering + TTS duration)
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
           ffmpeg -version | head -1
           ffprobe -version | head -1
 
-      - name: Determine run date, slot, and mode
+      - name: Determine run date, slot, mode, and topic
         id: meta
         run: |
           # Date
@@ -101,26 +105,39 @@ jobs:
           else
             UTC_HOUR=$(date -u +%H)
             case "$UTC_HOUR" in
-              01|02|03) SLOT=1 ;;   # around 02:30 UTC (08:00 IST morning) — IMAGE
-              06|07|08) SLOT=2 ;;   # around 07:00 UTC (12:30 IST lunch) — VIDEO
-              11|12|13) SLOT=3 ;;   # around 12:30 UTC (18:00 IST evening) — IMAGE
+              01|02|03) SLOT=1 ;;   # 08:00 IST — VIDEO web-design
+              06|07|08) SLOT=2 ;;   # 12:30 IST — IMAGE
+              09|10|11) SLOT=3 ;;   # 16:00 IST — VIDEO github-freelancing
+              14|15|16) SLOT=4 ;;   # 20:30 IST — IMAGE
               *) SLOT=1 ;;
             esac
           fi
           echo "slot=$SLOT" >> "$GITHUB_OUTPUT"
 
-          # Mode: image or video. Slot 2 = video, slots 1+3 = image.
-          # Can be overridden via mode_override input.
+          # Mode: slots 1+3 = video, slots 2+4 = image
           MODE_INPUT="${{ github.event.inputs.mode_override }}"
           if [ -n "$MODE_INPUT" ]; then
             MODE="$MODE_INPUT"
-          elif [ "$SLOT" = "2" ]; then
+          elif [ "$SLOT" = "1" ] || [ "$SLOT" = "3" ]; then
             MODE="video"
           else
             MODE="image"
           fi
           echo "mode=$MODE" >> "$GITHUB_OUTPUT"
-          echo "[INFO] Date: ${{ steps.meta.outputs.date }}  Slot: $SLOT  Mode: $MODE"
+
+          # Topic: slot 1 = web-design, slot 3 = github-freelancing
+          TOPIC_INPUT="${{ github.event.inputs.topic_override }}"
+          if [ -n "$TOPIC_INPUT" ]; then
+            TOPIC="$TOPIC_INPUT"
+          elif [ "$SLOT" = "1" ]; then
+            TOPIC="web-design"
+          elif [ "$SLOT" = "3" ]; then
+            TOPIC="github-freelancing"
+          else
+            TOPIC=""
+          fi
+          echo "topic=$TOPIC" >> "$GITHUB_OUTPUT"
+          echo "[INFO] Date: ${{ steps.meta.outputs.date }}  Slot: $SLOT  Mode: $MODE  Topic: $TOPIC"
 
       # ================================================================ IMAGE MODE
       - name: Generate image content
@@ -184,12 +201,10 @@ jobs:
           if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
             DRY_FLAG="--dry-run"
           fi
-          # Instagram
           python scripts/publish_instagram.py \
             --manifest "content/${DATE}-${SLOT}.json" \
             --history "content/history.json" \
             $DRY_FLAG || echo "[WARN] Instagram publish failed."
-          # Pinterest
           echo "[INFO] Cross-posting to Pinterest..."
           python scripts/publish_pinterest.py \
             --manifest "content/${DATE}-${SLOT}.json" \
@@ -210,12 +225,16 @@ jobs:
         id: render_video
         run: |
           DATE="${{ steps.meta.outputs.date }}"
-          DRY_FLAG=""
-          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
-            DRY_FLAG="--dry-run"
+          SLOT="${{ steps.meta.outputs.slot }}"
+          TOPIC="${{ steps.meta.outputs.topic }}"
+          TOPIC_FLAG=""
+          if [ -n "$TOPIC" ]; then
+            TOPIC_FLAG="--topic $TOPIC"
           fi
           python scripts/render_video.py \
             --date "$DATE" \
+            --slot "$SLOT" \
+            $TOPIC_FLAG \
             --out-dir content
 
       - name: Publish video to Instagram Reels + Pinterest
@@ -223,12 +242,13 @@ jobs:
         id: publish_video
         run: |
           DATE="${{ steps.meta.outputs.date }}"
+          SLOT="${{ steps.meta.outputs.slot }}"
           DRY_FLAG=""
           if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
             DRY_FLAG="--dry-run"
           fi
           python scripts/publish_video.py \
-            --manifest "content/${DATE}-video.json" \
+            --manifest "content/${DATE}-${SLOT}-video.json" \
             --history "content/history.json" \
             $DRY_FLAG
 
@@ -236,7 +256,8 @@ jobs:
         if: always() && steps.meta.outputs.mode == 'video'
         run: |
           DATE="${{ steps.meta.outputs.date }}"
-          bash scripts/git_push_retry.sh "chore(content): record video publication for ${DATE}" "content/history.json" "content/${DATE}-video.json" || true
+          SLOT="${{ steps.meta.outputs.slot }}"
+          bash scripts/git_push_retry.sh "chore(content): record video publication for ${DATE} slot ${SLOT}" "content/history.json" "content/${DATE}-${SLOT}-video.json" || true
 
       # ================================================================ Summary
       - name: Summary
@@ -247,6 +268,7 @@ jobs:
           echo "- **Date:** ${{ steps.meta.outputs.date }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- **Slot:** ${{ steps.meta.outputs.slot }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- **Mode:** ${{ steps.meta.outputs.mode }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- **Topic:** ${{ steps.meta.outputs.topic }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- **Dry run:** ${{ github.event.inputs.dry_run || 'false' }}" >> "$GITHUB_STEP_SUMMARY"
           if [ "${{ steps.meta.outputs.mode }}" = "image" ]; then
             echo "- **Image URL:** ${{ steps.url.outputs.image_url }}" >> "$GITHUB_STEP_SUMMARY"

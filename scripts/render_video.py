@@ -281,6 +281,7 @@ def main() -> int:
     parser.add_argument("--date", help="Override date as YYYY-MM-DD (defaults to today UTC).")
     parser.add_argument("--topic", choices=["web-design", "github-freelancing"],
                         help="Override topic (default: alternates daily).")
+    parser.add_argument("--slot", default="video", help="Slot identifier for content ID (e.g. 1, 3, video).")
     parser.add_argument("--out-dir", default="content", help="Output directory for manifest.")
     args = parser.parse_args()
 
@@ -295,8 +296,9 @@ def main() -> int:
 
     topic = pick_topic(date, args.topic)
     date_str = date.isoformat()
+    slot = args.slot
 
-    print(f"[INFO] Rendering video for {date_str} (topic: {topic})")
+    print(f"[INFO] Rendering video for {date_str} (topic: {topic}, slot: {slot})")
 
     # Load history to check for never-repeat
     out_dir_path = Path(args.out_dir).resolve()
@@ -358,10 +360,11 @@ def main() -> int:
         return 1
 
     # Build the manifest
+    content_id = f"{date_str}-{slot}-video"
     manifest = {
-        "id": f"{date_str}-video",
+        "id": content_id,
         "date": date_str,
-        "slot": "video",
+        "slot": slot,
         "type": "video",
         "topic": topic,
         "topic_pill": C.TOPICS[topic]["pill"],
@@ -385,7 +388,7 @@ def main() -> int:
 
     # Write manifest
     out_dir_path.mkdir(parents=True, exist_ok=True)
-    manifest_path = out_dir_path / f"{date_str}-video.json"
+    manifest_path = out_dir_path / f"{content_id}.json"
     with manifest_path.open("w", encoding="utf-8") as fh:
         json.dump(manifest, fh, indent=2, ensure_ascii=False)
     print(f"[INFO] Manifest written: {manifest_path}")
