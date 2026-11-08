@@ -2461,6 +2461,25 @@
       "size_mb": 2.5,
       "detail": "Video Reel (IG) + cover pin (Pinterest). Topic: github-freelancing",
       "recorded_at": "2026-11-08T04:43:58Z"
+    },
+    {
+      "id": "2026-11-08-4",
+      "date": "2026-11-08",
+      "slot": 4,
+      "topic": "Signs You Need A Redesign",
+      "fact_index": 8,
+      "seed_fact": "If your homepage takes 8+ seconds to load, you're losing 50% of visitors before they see anything.",
+      "fresh_tip": false,
+      "image_style": "component_grid",
+      "image_headline": "Slow site? You're losing customers",
+      "status": "published",
+      "media_id": "18055045877815387",
+      "image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/ae462f7b309ede90b1b25742287f2ad0d16f0c94/content/images/2026-11-08-4.png",
+      "detail": "Published via Composio",
+      "recorded_at": "2026-11-08T07:45:18Z",
+      "pinterest_pin_id": "1021543128001461966",
+      "pinterest_board_id": "1021543196668085616",
+      "pinterest_published_at": "2026-11-08T07:45:22Z"
     }
   ]
 }
