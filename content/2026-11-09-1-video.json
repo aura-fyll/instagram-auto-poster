@@ -1,0 +1,28 @@
+{
+  "id": "2026-11-09-1-video",
+  "date": "2026-11-09",
+  "slot": "1",
+  "type": "video",
+  "topic": "web-design",
+  "topic_pill": "DAILY WEB DESIGN",
+  "episode_number": 14,
+  "episode_total": 30,
+  "hook_text": "I fix websites that look like this",
+  "caption": "I fix websites that look like this\n\n1. Modern look — Clean, current design\n2. Fast load — Under 2 seconds\n3. Mobile-perfect — Works on every phone\n\nDM me to fix yours\n\n#webdesign #websiteredesign #smallbusiness #freelance #uxdesign",
+  "hashtags": [
+    "webdesign",
+    "websiteredesign",
+    "smallbusiness",
+    "freelance",
+    "uxdesign"
+  ],
+  "cta_text": "DM me to fix yours",
+  "video_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/download/daily/2026-11-09/web-design.mp4",
+  "cover_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/download/daily/2026-11-09/web-design-cover.jpg",
+  "release_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/tag/daily/2026-11-09",
+  "duration": 24.39,
+  "size_mb": 2.3,
+  "handle": "@visualhookdesign",
+  "fresh_episode": false,
+  "portfolio_link": "https://professional-x.github.io/visualhk-designs/"
+}

@@ -2545,6 +2545,29 @@
       "size_mb": 2.5,
       "detail": "Video Reel (IG) + cover pin (Pinterest). Topic: github-freelancing",
       "recorded_at": "2026-11-08T09:23:47Z"
+    },
+    {
+      "id": "2026-11-09-1-video",
+      "date": "2026-11-09",
+      "slot": "video",
+      "type": "video",
+      "topic": "web-design",
+      "topic_pill": "DAILY WEB DESIGN",
+      "episode_number": 14,
+      "hook_text": "I fix websites that look like this",
+      "image_headline": "I fix websites that look like this",
+      "seed_fact": "",
+      "image_style": "video_reel",
+      "status": "published",
+      "media_id": "18131659723830109",
+      "pinterest_pin_id": "1021543128001488875",
+      "video_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/download/daily/2026-11-09/web-design.mp4",
+      "cover_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/download/daily/2026-11-09/web-design-cover.jpg",
+      "release_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/tag/daily/2026-11-09",
+      "duration": 24.39,
+      "size_mb": 2.3,
+      "detail": "Video Reel (IG) + cover pin (Pinterest). Topic: web-design",
+      "recorded_at": "2026-11-09T02:40:06Z"
     }
   ]
 }
