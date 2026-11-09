@@ -498,6 +498,23 @@ def main() -> int:
             comment_text = comment.get("text") or ""
             comment_user = comment.get("username") or comment.get("from", {}).get("username", "?")
 
+            # CRITICAL: Skip our own comments — otherwise the bot replies to
+            # its own replies, creating an infinite loop (6x replies per comment).
+            # Our username comes from the IG account we're connected to.
+            our_username = "visualhookdesign"  # @visualhookdesign
+            if comment_user.lower() == our_username.lower():
+                # Mark as replied so we never scan it again
+                replied_map[comment_id] = {
+                    "post_id": post_id, "media_id": media_id,
+                    "comment_text": comment_text[:80], "comment_user": comment_user,
+                    "sentiment": "own_comment", "reply": "(skipped — our own comment)",
+                    "dm_sent": False, "lead_alert": False,
+                    "replied_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+                }
+                total_skipped += 1
+                print(f"[INFO] Skipping comment {comment_id} — it's our own reply (self-reply prevention).")
+                continue
+
             # Classify sentiment
             sentiment, method = classify_sentiment(comment_text)
             print(f"[INFO] Comment {comment_id} (user={comment_user}, sentiment={sentiment} via {method}): "
