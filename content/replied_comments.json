@@ -3,7 +3,7 @@
     "17926680234185793": {
       "post_id": "2026-09-27-1",
       "media_id": "18042937760831666",
-      "comment_text": "This looks great \u2764\ufe0f send us this post",
+      "comment_text": "This looks great ❤️ send us this post",
       "comment_user": "?",
       "sentiment": "generic",
       "sentiment_method": "groq",
@@ -51,7 +51,7 @@
     "17959297557015247": {
       "post_id": "2026-10-25-3",
       "media_id": "18371962039208477",
-      "comment_text": "This looks great \u2764\ufe0f send us this post",
+      "comment_text": "This looks great ❤️ send us this post",
       "comment_user": "?",
       "sentiment": "generic",
       "sentiment_method": "groq",
@@ -73,5 +73,5 @@
       "replied_at": "2026-11-06T22:56:41Z"
     }
   },
-  "last_run": "2026-11-08T23:33:50Z"
+  "last_run": "2026-11-09T02:34:54Z"
 }
