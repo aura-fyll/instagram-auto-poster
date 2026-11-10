@@ -2610,6 +2610,29 @@
       "pinterest_pin_id": "1021543128001533540",
       "pinterest_board_id": "1021543196668085616",
       "pinterest_published_at": "2026-11-10T15:32:52Z"
+    },
+    {
+      "id": "2026-11-10-1-video",
+      "date": "2026-11-10",
+      "slot": "video",
+      "type": "video",
+      "topic": "web-design",
+      "topic_pill": "DAILY WEB DESIGN",
+      "episode_number": 15,
+      "hook_text": "Don't build your website on Wix",
+      "image_headline": "Don't build your website on Wix",
+      "seed_fact": "",
+      "image_style": "video_reel",
+      "status": "published",
+      "media_id": "17919726180535225",
+      "pinterest_pin_id": "1021543128001537712",
+      "video_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/download/daily/2026-11-10/web-design.mp4",
+      "cover_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/download/daily/2026-11-10/web-design-cover.jpg",
+      "release_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/tag/daily/2026-11-10",
+      "duration": 27.13,
+      "size_mb": 2.4,
+      "detail": "Video Reel (IG) + cover pin (Pinterest). Topic: web-design",
+      "recorded_at": "2026-11-10T18:11:23Z"
     }
   ]
 }

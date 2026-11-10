@@ -1,0 +1,28 @@
+{
+  "id": "2026-11-10-1-video",
+  "date": "2026-11-10",
+  "slot": "1",
+  "type": "video",
+  "topic": "web-design",
+  "topic_pill": "DAILY WEB DESIGN",
+  "episode_number": 15,
+  "episode_total": 30,
+  "hook_text": "Don't build your website on Wix",
+  "caption": "Don't build your website on Wix\n\n1. You don't own it — Wix controls everything\n2. Slow — Templates are bloated\n3. Hard to leave — Migrating costs more\n\nDM me to build it right\n\n#webdesign #smallbusiness #freelance #wordpress #webdesigner",
+  "hashtags": [
+    "webdesign",
+    "smallbusiness",
+    "freelance",
+    "wordpress",
+    "webdesigner"
+  ],
+  "cta_text": "DM me to build it right",
+  "video_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/download/daily/2026-11-10/web-design.mp4",
+  "cover_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/download/daily/2026-11-10/web-design-cover.jpg",
+  "release_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/tag/daily/2026-11-10",
+  "duration": 27.13,
+  "size_mb": 2.4,
+  "handle": "@visualhookdesign",
+  "fresh_episode": false,
+  "portfolio_link": "https://professional-x.github.io/visualhk-designs/"
+}
