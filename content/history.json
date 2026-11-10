@@ -2568,6 +2568,29 @@
       "size_mb": 2.3,
       "detail": "Video Reel (IG) + cover pin (Pinterest). Topic: web-design",
       "recorded_at": "2026-11-09T02:40:06Z"
+    },
+    {
+      "id": "2026-11-10-3-video",
+      "date": "2026-11-10",
+      "slot": "video",
+      "type": "video",
+      "topic": "github-freelancing",
+      "topic_pill": "GITHUB x FREELANCING",
+      "episode_number": 25,
+      "hook_text": "I make your website secure without you thinking about it",
+      "image_headline": "I make your website secure without you thinking about it",
+      "seed_fact": "",
+      "image_style": "video_reel",
+      "status": "published",
+      "media_id": "17918536149549722",
+      "pinterest_pin_id": "1021543128001526521",
+      "video_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/download/daily/2026-11-10/github-freelancing.mp4",
+      "cover_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/download/daily/2026-11-10/github-freelancing-cover.jpg",
+      "release_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/tag/daily/2026-11-10",
+      "duration": 24.99,
+      "size_mb": 2.5,
+      "detail": "Video Reel (IG) + cover pin (Pinterest). Topic: github-freelancing",
+      "recorded_at": "2026-11-10T10:18:29Z"
     }
   ]
 }
