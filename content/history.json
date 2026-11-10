@@ -2591,6 +2591,25 @@
       "size_mb": 2.5,
       "detail": "Video Reel (IG) + cover pin (Pinterest). Topic: github-freelancing",
       "recorded_at": "2026-11-10T10:18:29Z"
+    },
+    {
+      "id": "2026-11-10-4",
+      "date": "2026-11-10",
+      "slot": 4,
+      "topic": "Signs You Need A Redesign",
+      "fact_index": 10,
+      "seed_fact": "If your site has pop-ups, autoplay videos, or interstitials, you're annoying visitors into leaving.",
+      "fresh_tip": false,
+      "image_style": "component_grid",
+      "image_headline": "Stop Losing Customers to Annoying Pop‑ups",
+      "status": "published",
+      "media_id": "18395608375226203",
+      "image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/972c45f2b82459509fcda33550f410fb00218621/content/images/2026-11-10-4.png",
+      "detail": "Published via Composio",
+      "recorded_at": "2026-11-10T15:32:46Z",
+      "pinterest_pin_id": "1021543128001533540",
+      "pinterest_board_id": "1021543196668085616",
+      "pinterest_published_at": "2026-11-10T15:32:52Z"
     }
   ]
 }
