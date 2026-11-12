@@ -2675,6 +2675,29 @@
       "pinterest_pin_id": "1021543128001593814",
       "pinterest_board_id": "1021543196668085616",
       "pinterest_published_at": "2026-11-12T15:50:50Z"
+    },
+    {
+      "id": "2026-11-12-1-video",
+      "date": "2026-11-12",
+      "slot": "video",
+      "type": "video",
+      "topic": "web-design",
+      "topic_pill": "DAILY WEB DESIGN",
+      "episode_number": 17,
+      "hook_text": "Your website should answer 3 questions",
+      "image_headline": "Your website should answer 3 questions",
+      "seed_fact": "",
+      "image_style": "video_reel",
+      "status": "published",
+      "media_id": "18109328273346274",
+      "pinterest_pin_id": "1021543128001603148",
+      "video_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/download/daily/2026-11-12/web-design.mp4",
+      "cover_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/download/daily/2026-11-12/web-design-cover.jpg",
+      "release_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/tag/daily/2026-11-12",
+      "duration": 23.69,
+      "size_mb": 2.3,
+      "detail": "Video Reel (IG) + cover pin (Pinterest). Topic: web-design",
+      "recorded_at": "2026-11-12T21:51:28Z"
     }
   ]
 }

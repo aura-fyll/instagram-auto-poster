@@ -1,0 +1,28 @@
+{
+  "id": "2026-11-12-1-video",
+  "date": "2026-11-12",
+  "slot": "1",
+  "type": "video",
+  "topic": "web-design",
+  "topic_pill": "DAILY WEB DESIGN",
+  "episode_number": 17,
+  "episode_total": 30,
+  "hook_text": "Your website should answer 3 questions",
+  "caption": "Your website should answer 3 questions\n\n1. What you do — Clear in the hero\n2. Who it's for — Visitors recognize themselves\n3. What to do next — One clear CTA\n\nDM me to fix your message\n\n#webdesign #smallbusiness #freelance #uxdesign #conversion",
+  "hashtags": [
+    "webdesign",
+    "smallbusiness",
+    "freelance",
+    "uxdesign",
+    "conversion"
+  ],
+  "cta_text": "DM me to fix your message",
+  "video_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/download/daily/2026-11-12/web-design.mp4",
+  "cover_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/download/daily/2026-11-12/web-design-cover.jpg",
+  "release_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/tag/daily/2026-11-12",
+  "duration": 23.69,
+  "size_mb": 2.3,
+  "handle": "@visualhookdesign",
+  "fresh_episode": false,
+  "portfolio_link": "https://professional-x.github.io/visualhk-designs/"
+}
