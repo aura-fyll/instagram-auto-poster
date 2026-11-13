@@ -2717,6 +2717,29 @@
       "pinterest_pin_id": "1021543128001623133",
       "pinterest_board_id": "1021543196668085616",
       "pinterest_published_at": "2026-11-13T15:11:51Z"
+    },
+    {
+      "id": "2026-11-13-1-video",
+      "date": "2026-11-13",
+      "slot": "video",
+      "type": "video",
+      "topic": "web-design",
+      "topic_pill": "DAILY WEB DESIGN",
+      "episode_number": 18,
+      "hook_text": "I build websites in 2 weeks, not 2 months",
+      "image_headline": "I build websites in 2 weeks, not 2 months",
+      "seed_fact": "",
+      "image_style": "video_reel",
+      "status": "published",
+      "media_id": "17925449604224337",
+      "pinterest_pin_id": "1021543128001627177",
+      "video_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/download/daily/2026-11-13/web-design.mp4",
+      "cover_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/download/daily/2026-11-13/web-design-cover.jpg",
+      "release_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/tag/daily/2026-11-13",
+      "duration": 25.04,
+      "size_mb": 2.2,
+      "detail": "Video Reel (IG) + cover pin (Pinterest). Topic: web-design",
+      "recorded_at": "2026-11-13T18:02:42Z"
     }
   ]
 }
