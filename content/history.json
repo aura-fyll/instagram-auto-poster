@@ -2786,6 +2786,25 @@
       "size_mb": 2.4,
       "detail": "Video Reel (IG) + cover pin (Pinterest). Topic: web-design",
       "recorded_at": "2026-11-14T14:02:10Z"
+    },
+    {
+      "id": "2026-11-14-4",
+      "date": "2026-11-14",
+      "slot": 4,
+      "topic": "Signs You Need A Redesign",
+      "fact_index": 12,
+      "seed_fact": "If your navigation has more than 7 top-level items, it's overwhelming users. Simplify.",
+      "fresh_tip": false,
+      "image_style": "before_after",
+      "image_headline": "Too many menu items? Lose customers.",
+      "status": "published",
+      "media_id": "18126207691911009",
+      "image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/137cabc7723dcafcdf8b551a63662be6aad599c9/content/images/2026-11-14-4.png",
+      "detail": "Published via Composio",
+      "recorded_at": "2026-11-14T16:42:43Z",
+      "pinterest_pin_id": "1021543128001655035",
+      "pinterest_board_id": "1021543196668085616",
+      "pinterest_published_at": "2026-11-14T16:42:47Z"
     }
   ]
 }
