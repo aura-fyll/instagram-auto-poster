@@ -2763,6 +2763,29 @@
       "size_mb": 2.1,
       "detail": "Video Reel (IG) + cover pin (Pinterest). Topic: github-freelancing",
       "recorded_at": "2026-11-14T09:18:50Z"
+    },
+    {
+      "id": "2026-11-14-1-video",
+      "date": "2026-11-14",
+      "slot": "video",
+      "type": "video",
+      "topic": "web-design",
+      "topic_pill": "DAILY WEB DESIGN",
+      "episode_number": 19,
+      "hook_text": "Websites that bring clients, not compliments",
+      "image_headline": "Websites that bring clients, not compliments",
+      "seed_fact": "",
+      "image_style": "video_reel",
+      "status": "published",
+      "media_id": "18023862245944618",
+      "pinterest_pin_id": "1021543128001650921",
+      "video_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/download/daily/2026-11-14/web-design.mp4",
+      "cover_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/download/daily/2026-11-14/web-design-cover.jpg",
+      "release_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/tag/daily/2026-11-14",
+      "duration": 22.97,
+      "size_mb": 2.4,
+      "detail": "Video Reel (IG) + cover pin (Pinterest). Topic: web-design",
+      "recorded_at": "2026-11-14T14:02:10Z"
     }
   ]
 }
