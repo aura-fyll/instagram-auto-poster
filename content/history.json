@@ -2824,6 +2824,29 @@
       "pinterest_pin_id": "1021543128001686112",
       "pinterest_board_id": "1021543196668085616",
       "pinterest_published_at": "2026-11-15T14:35:18Z"
+    },
+    {
+      "id": "2026-11-15-1-video",
+      "date": "2026-11-15",
+      "slot": "video",
+      "type": "video",
+      "topic": "web-design",
+      "topic_pill": "DAILY WEB DESIGN",
+      "episode_number": 20,
+      "hook_text": "Your website is invisible on Google",
+      "image_headline": "Your website is invisible on Google",
+      "seed_fact": "",
+      "image_style": "video_reel",
+      "status": "published",
+      "media_id": "18120789787952533",
+      "pinterest_pin_id": "1021543128001690818",
+      "video_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/download/daily/2026-11-15/web-design.mp4",
+      "cover_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/download/daily/2026-11-15/web-design-cover.jpg",
+      "release_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/tag/daily/2026-11-15",
+      "duration": 23.72,
+      "size_mb": 2.3,
+      "detail": "Video Reel (IG) + cover pin (Pinterest). Topic: web-design",
+      "recorded_at": "2026-11-15T17:26:02Z"
     }
   ]
 }
