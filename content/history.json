@@ -2866,6 +2866,29 @@
       "pinterest_pin_id": "1021543128001722330",
       "pinterest_board_id": "1021543196668085616",
       "pinterest_published_at": "2026-11-16T16:51:21Z"
+    },
+    {
+      "id": "2026-11-16-1-video",
+      "date": "2026-11-16",
+      "slot": "video",
+      "type": "video",
+      "topic": "web-design",
+      "topic_pill": "DAILY WEB DESIGN",
+      "episode_number": 21,
+      "hook_text": "I redesigned this and bounce rate dropped 60%",
+      "image_headline": "I redesigned this and bounce rate dropped 60%",
+      "seed_fact": "",
+      "image_style": "video_reel",
+      "status": "published",
+      "media_id": "17951834877344791",
+      "pinterest_pin_id": "1021543128001728575",
+      "video_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/download/daily/2026-11-16/web-design.mp4",
+      "cover_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/download/daily/2026-11-16/web-design-cover.jpg",
+      "release_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/tag/daily/2026-11-16",
+      "duration": 27.46,
+      "size_mb": 2.5,
+      "detail": "Video Reel (IG) + cover pin (Pinterest). Topic: web-design",
+      "recorded_at": "2026-11-16T20:41:44Z"
     }
   ]
 }

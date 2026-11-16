@@ -1,0 +1,28 @@
+{
+  "id": "2026-11-16-1-video",
+  "date": "2026-11-16",
+  "slot": "1",
+  "type": "video",
+  "topic": "web-design",
+  "topic_pill": "DAILY WEB DESIGN",
+  "episode_number": 21,
+  "episode_total": 30,
+  "hook_text": "I redesigned this and bounce rate dropped 60%",
+  "caption": "I redesigned this and bounce rate dropped 60%\n\n1. Clear hero — Value in 5 seconds\n2. Fast load — Under 2 seconds\n3. Easy nav — 5 items max\n\nDM me to fix your bounce rate\n\n#webdesign #websiteredesign #smallbusiness #uxdesign #freelance",
+  "hashtags": [
+    "webdesign",
+    "websiteredesign",
+    "smallbusiness",
+    "uxdesign",
+    "freelance"
+  ],
+  "cta_text": "DM me to fix your bounce rate",
+  "video_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/download/daily/2026-11-16/web-design.mp4",
+  "cover_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/download/daily/2026-11-16/web-design-cover.jpg",
+  "release_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/tag/daily/2026-11-16",
+  "duration": 27.46,
+  "size_mb": 2.5,
+  "handle": "@visualhookdesign",
+  "fresh_episode": false,
+  "portfolio_link": "https://professional-x.github.io/visualhk-designs/"
+}
