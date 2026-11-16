@@ -2847,6 +2847,25 @@
       "size_mb": 2.3,
       "detail": "Video Reel (IG) + cover pin (Pinterest). Topic: web-design",
       "recorded_at": "2026-11-15T17:26:02Z"
+    },
+    {
+      "id": "2026-11-16-4",
+      "date": "2026-11-16",
+      "slot": 4,
+      "topic": "Signs You Need A Redesign",
+      "fact_index": 14,
+      "seed_fact": "If your 'Contact Us' page only has an email address, you're losing 30% of leads. Add a form.",
+      "fresh_tip": false,
+      "image_style": "palette_typography",
+      "image_headline": "Your contact page is losing leads",
+      "status": "published",
+      "media_id": "18016348850760861",
+      "image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/db791e256786ffee684e91d2b5080ea1c12f20fa/content/images/2026-11-16-4.png",
+      "detail": "Published via Composio",
+      "recorded_at": "2026-11-16T16:51:17Z",
+      "pinterest_pin_id": "1021543128001722330",
+      "pinterest_board_id": "1021543196668085616",
+      "pinterest_published_at": "2026-11-16T16:51:21Z"
     }
   ]
 }
