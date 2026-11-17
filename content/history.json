@@ -2912,6 +2912,25 @@
       "size_mb": 2.5,
       "detail": "Video Reel (IG) + cover pin (Pinterest). Topic: github-freelancing",
       "recorded_at": "2026-11-17T11:03:15Z"
+    },
+    {
+      "id": "2026-11-17-4",
+      "date": "2026-11-17",
+      "slot": 4,
+      "topic": "GitHub Automation for Freelancers",
+      "fact_index": 4,
+      "seed_fact": "Schedule invoices with a cron workflow: monthly PDFs generated + emailed to clients, zero manual work.",
+      "fresh_tip": false,
+      "image_style": "before_after",
+      "image_headline": "Stop Chasing Invoices",
+      "status": "published",
+      "media_id": "18172592518486010",
+      "image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/1a5fe0bcd1558f27e4b7b009a83afdda165da970/content/images/2026-11-17-4.png",
+      "detail": "Published via Composio",
+      "recorded_at": "2026-11-17T16:46:08Z",
+      "pinterest_pin_id": "1021543128001755034",
+      "pinterest_board_id": "1021543196668085616",
+      "pinterest_published_at": "2026-11-17T16:46:12Z"
     }
   ]
 }
