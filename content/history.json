@@ -2931,6 +2931,29 @@
       "pinterest_pin_id": "1021543128001755034",
       "pinterest_board_id": "1021543196668085616",
       "pinterest_published_at": "2026-11-17T16:46:12Z"
+    },
+    {
+      "id": "2026-11-17-1-video",
+      "date": "2026-11-17",
+      "slot": "video",
+      "type": "video",
+      "topic": "web-design",
+      "topic_pill": "DAILY WEB DESIGN",
+      "episode_number": 22,
+      "hook_text": "Stop paying for ads — your website should do this",
+      "image_headline": "Stop paying for ads — your website should do this",
+      "seed_fact": "",
+      "image_style": "video_reel",
+      "status": "published",
+      "media_id": "18122415262984682",
+      "pinterest_pin_id": "1021543128001759154",
+      "video_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/download/daily/2026-11-17/web-design.mp4",
+      "cover_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/download/daily/2026-11-17/web-design-cover.jpg",
+      "release_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/tag/daily/2026-11-17",
+      "duration": 24.99,
+      "size_mb": 2.5,
+      "detail": "Video Reel (IG) + cover pin (Pinterest). Topic: web-design",
+      "recorded_at": "2026-11-17T19:21:50Z"
     }
   ]
 }
