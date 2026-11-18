@@ -2973,6 +2973,29 @@
       "pinterest_pin_id": "1021543128001788650",
       "pinterest_board_id": "1021543196668085616",
       "pinterest_published_at": "2026-11-18T16:30:11Z"
+    },
+    {
+      "id": "2026-11-18-1-video",
+      "date": "2026-11-18",
+      "slot": "video",
+      "type": "video",
+      "topic": "web-design",
+      "topic_pill": "DAILY WEB DESIGN",
+      "episode_number": 23,
+      "hook_text": "I make websites that load in under 2 seconds",
+      "image_headline": "I make websites that load in under 2 seconds",
+      "seed_fact": "",
+      "image_style": "video_reel",
+      "status": "published",
+      "media_id": "17913848667579080",
+      "pinterest_pin_id": "1021543128001792570",
+      "video_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/download/daily/2026-11-18/web-design.mp4",
+      "cover_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/download/daily/2026-11-18/web-design-cover.jpg",
+      "release_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/tag/daily/2026-11-18",
+      "duration": 24.73,
+      "size_mb": 2.3,
+      "detail": "Video Reel (IG) + cover pin (Pinterest). Topic: web-design",
+      "recorded_at": "2026-11-18T19:02:39Z"
     }
   ]
 }

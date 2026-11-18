@@ -1,0 +1,28 @@
+{
+  "id": "2026-11-18-1-video",
+  "date": "2026-11-18",
+  "slot": "1",
+  "type": "video",
+  "topic": "web-design",
+  "topic_pill": "DAILY WEB DESIGN",
+  "episode_number": 23,
+  "episode_total": 30,
+  "hook_text": "I make websites that load in under 2 seconds",
+  "caption": "I make websites that load in under 2 seconds\n\n1. Optimized images — WebP + lazy load\n2. Clean code — No bloated templates\n3. CDN — Global delivery\n\nDM me for a fast website\n\n#webdesign #smallbusiness #freelance #pagespeed #webperformance",
+  "hashtags": [
+    "webdesign",
+    "smallbusiness",
+    "freelance",
+    "pagespeed",
+    "webperformance"
+  ],
+  "cta_text": "DM me for a fast website",
+  "video_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/download/daily/2026-11-18/web-design.mp4",
+  "cover_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/download/daily/2026-11-18/web-design-cover.jpg",
+  "release_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/tag/daily/2026-11-18",
+  "duration": 24.73,
+  "size_mb": 2.3,
+  "handle": "@visualhookdesign",
+  "fresh_episode": false,
+  "portfolio_link": "https://professional-x.github.io/visualhk-designs/"
+}
