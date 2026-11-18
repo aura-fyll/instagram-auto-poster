@@ -2954,6 +2954,25 @@
       "size_mb": 2.5,
       "detail": "Video Reel (IG) + cover pin (Pinterest). Topic: web-design",
       "recorded_at": "2026-11-17T19:21:50Z"
+    },
+    {
+      "id": "2026-11-18-4",
+      "date": "2026-11-18",
+      "slot": 4,
+      "topic": "Signs You Need A Redesign",
+      "fact_index": 13,
+      "seed_fact": "Site hasn't been backed up in 6 months? One hack and you lose everything. Redesign + maintenance.",
+      "fresh_tip": false,
+      "image_style": "stats_callout",
+      "image_headline": "Your site is at risk",
+      "status": "published",
+      "media_id": "18111339953262440",
+      "image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/50d181d6584c654789f3a83ed7bf8770a90b74c1/content/images/2026-11-18-4.png",
+      "detail": "Published via Composio",
+      "recorded_at": "2026-11-18T16:30:06Z",
+      "pinterest_pin_id": "1021543128001788650",
+      "pinterest_board_id": "1021543196668085616",
+      "pinterest_published_at": "2026-11-18T16:30:11Z"
     }
   ]
 }
