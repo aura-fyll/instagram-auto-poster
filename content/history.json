@@ -3038,6 +3038,29 @@
       "pinterest_pin_id": "1021543128001819207",
       "pinterest_board_id": "1021543196668085616",
       "pinterest_published_at": "2026-11-19T16:24:55Z"
+    },
+    {
+      "id": "2026-11-19-1-video",
+      "date": "2026-11-19",
+      "slot": "video",
+      "type": "video",
+      "topic": "web-design",
+      "topic_pill": "DAILY WEB DESIGN",
+      "episode_number": 24,
+      "hook_text": "Your website should capture emails while you sleep",
+      "image_headline": "Your website should capture emails while you sleep",
+      "seed_fact": "",
+      "image_style": "video_reel",
+      "status": "published",
+      "media_id": "18094451522679645",
+      "pinterest_pin_id": "1021543128001823235",
+      "video_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/download/daily/2026-11-19/web-design.mp4",
+      "cover_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/download/daily/2026-11-19/web-design-cover.jpg",
+      "release_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/tag/daily/2026-11-19",
+      "duration": 24.53,
+      "size_mb": 2.3,
+      "detail": "Video Reel (IG) + cover pin (Pinterest). Topic: web-design",
+      "recorded_at": "2026-11-19T19:10:23Z"
     }
   ]
 }
