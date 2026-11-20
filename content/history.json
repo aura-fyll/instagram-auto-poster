@@ -3080,6 +3080,29 @@
       "pinterest_pin_id": "1021543128001849600",
       "pinterest_board_id": "1021543196668085616",
       "pinterest_published_at": "2026-11-20T15:59:26Z"
+    },
+    {
+      "id": "2026-11-20-1-video",
+      "date": "2026-11-20",
+      "slot": "video",
+      "type": "video",
+      "topic": "web-design",
+      "topic_pill": "DAILY WEB DESIGN",
+      "episode_number": 25,
+      "hook_text": "I build websites for small businesses, not corporations",
+      "image_headline": "I build websites for small businesses, not corporations",
+      "seed_fact": "",
+      "image_style": "video_reel",
+      "status": "published",
+      "media_id": "17919834459469152",
+      "pinterest_pin_id": "1021543128001853879",
+      "video_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/download/daily/2026-11-20/web-design.mp4",
+      "cover_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/download/daily/2026-11-20/web-design-cover.jpg",
+      "release_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/tag/daily/2026-11-20",
+      "duration": 26.69,
+      "size_mb": 2.8,
+      "detail": "Video Reel (IG) + cover pin (Pinterest). Topic: web-design",
+      "recorded_at": "2026-11-20T18:47:11Z"
     }
   ]
 }
