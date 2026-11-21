@@ -3122,6 +3122,29 @@
       "pinterest_pin_id": "1021543128001877321",
       "pinterest_board_id": "1021543196668085616",
       "pinterest_published_at": "2026-11-21T15:10:08Z"
+    },
+    {
+      "id": "2026-11-21-1-video",
+      "date": "2026-11-21",
+      "slot": "video",
+      "type": "video",
+      "topic": "web-design",
+      "topic_pill": "DAILY WEB DESIGN",
+      "episode_number": 26,
+      "hook_text": "Your website should make you money, not cost you money",
+      "image_headline": "Your website should make you money, not cost you money",
+      "seed_fact": "",
+      "image_style": "video_reel",
+      "status": "published",
+      "media_id": "18114540860184074",
+      "pinterest_pin_id": "1021543128001882366",
+      "video_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/download/daily/2026-11-21/web-design.mp4",
+      "cover_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/download/daily/2026-11-21/web-design-cover.jpg",
+      "release_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/tag/daily/2026-11-21",
+      "duration": 23.79,
+      "size_mb": 2.5,
+      "detail": "Video Reel (IG) + cover pin (Pinterest). Topic: web-design",
+      "recorded_at": "2026-11-21T17:48:42Z"
     }
   ]
 }
