@@ -3103,6 +3103,25 @@
       "size_mb": 2.8,
       "detail": "Video Reel (IG) + cover pin (Pinterest). Topic: web-design",
       "recorded_at": "2026-11-20T18:47:11Z"
+    },
+    {
+      "id": "2026-11-21-4",
+      "date": "2026-11-21",
+      "slot": 4,
+      "topic": "GitHub Automation for Freelancers",
+      "fact_index": 1,
+      "seed_fact": "Set up PR previews: every pull request gets its own live URL. Clients approve what they see, not what you describe.",
+      "fresh_tip": false,
+      "image_style": "component_grid",
+      "image_headline": "Approve website changes instantly",
+      "status": "published",
+      "media_id": "18440544265199108",
+      "image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/001b692ee320045b53f7eb084519d16aa76838cd/content/images/2026-11-21-4.png",
+      "detail": "Published via Composio",
+      "recorded_at": "2026-11-21T15:10:04Z",
+      "pinterest_pin_id": "1021543128001877321",
+      "pinterest_board_id": "1021543196668085616",
+      "pinterest_published_at": "2026-11-21T15:10:08Z"
     }
   ]
 }

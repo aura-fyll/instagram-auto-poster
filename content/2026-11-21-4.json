@@ -1,0 +1,27 @@
+{
+  "id": "2026-11-21-4",
+  "date": "2026-11-21",
+  "slot": 4,
+  "topic": "GitHub Automation for Freelancers",
+  "fact_index": 1,
+  "seed_fact": "Set up PR previews: every pull request gets its own live URL. Clients approve what they see, not what you describe.",
+  "fresh_tip": false,
+  "image_headline": "Approve website changes instantly",
+  "caption": "Tired of guessing how a website update will look? I create live preview links for every change, so you can see exactly what’s coming before it’s published. DM me to get a site that lets you approve updates with confidence.\n\n#webdesign #smallbusiness #freelancewebdesigner #websiteupdates #clientapproval",
+  "hashtags": [
+    "#webdesign",
+    "#smallbusiness",
+    "#freelancewebdesigner",
+    "#websiteupdates",
+    "#clientapproval"
+  ],
+  "image_file": "content/images/2026-11-21-4.png",
+  "image_filename": "2026-11-21-4.png",
+  "story_image_filename": "2026-11-21-4-story.png",
+  "ai_generated": true,
+  "generator": "groq",
+  "image_style": "component_grid",
+  "style_index": 5,
+  "image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/001b692ee320045b53f7eb084519d16aa76838cd/content/images/2026-11-21-4.png",
+  "story_image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/001b692ee320045b53f7eb084519d16aa76838cd/content/images/2026-11-21-4-story.png"
+}
