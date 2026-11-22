@@ -3164,6 +3164,29 @@
       "pinterest_pin_id": "1021543128001908932",
       "pinterest_board_id": "1021543196668085616",
       "pinterest_published_at": "2026-11-22T15:07:24Z"
+    },
+    {
+      "id": "2026-11-22-1-video",
+      "date": "2026-11-22",
+      "slot": "video",
+      "type": "video",
+      "topic": "web-design",
+      "topic_pill": "DAILY WEB DESIGN",
+      "episode_number": 27,
+      "hook_text": "I add online booking and your phone stops ringing",
+      "image_headline": "I add online booking and your phone stops ringing",
+      "seed_fact": "",
+      "image_style": "video_reel",
+      "status": "published",
+      "media_id": "18018469550963094",
+      "pinterest_pin_id": "1021543128001914612",
+      "video_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/download/daily/2026-11-22/web-design.mp4",
+      "cover_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/download/daily/2026-11-22/web-design-cover.jpg",
+      "release_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/tag/daily/2026-11-22",
+      "duration": 24.87,
+      "size_mb": 2.5,
+      "detail": "Video Reel (IG) + cover pin (Pinterest). Topic: web-design",
+      "recorded_at": "2026-11-22T18:03:35Z"
     }
   ]
 }

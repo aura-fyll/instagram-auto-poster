@@ -1,0 +1,28 @@
+{
+  "id": "2026-11-22-1-video",
+  "date": "2026-11-22",
+  "slot": "1",
+  "type": "video",
+  "topic": "web-design",
+  "topic_pill": "DAILY WEB DESIGN",
+  "episode_number": 27,
+  "episode_total": 30,
+  "hook_text": "I add online booking and your phone stops ringing",
+  "caption": "I add online booking and your phone stops ringing\n\n1. Self-serve — Clients book themselves\n2. Auto-confirm — No back-and-forth\n3. Reminders — Fewer no-shows\n\nDM me to add booking\n\n#webdesign #smallbusiness #freelance #onlinebooking #automation",
+  "hashtags": [
+    "webdesign",
+    "smallbusiness",
+    "freelance",
+    "onlinebooking",
+    "automation"
+  ],
+  "cta_text": "DM me to add booking",
+  "video_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/download/daily/2026-11-22/web-design.mp4",
+  "cover_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/download/daily/2026-11-22/web-design-cover.jpg",
+  "release_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/tag/daily/2026-11-22",
+  "duration": 24.87,
+  "size_mb": 2.5,
+  "handle": "@visualhookdesign",
+  "fresh_episode": false,
+  "portfolio_link": "https://professional-x.github.io/visualhk-designs/"
+}
