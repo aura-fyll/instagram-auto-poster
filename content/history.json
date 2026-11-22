@@ -3145,6 +3145,25 @@
       "size_mb": 2.5,
       "detail": "Video Reel (IG) + cover pin (Pinterest). Topic: web-design",
       "recorded_at": "2026-11-21T17:48:42Z"
+    },
+    {
+      "id": "2026-11-22-4",
+      "date": "2026-11-22",
+      "slot": 4,
+      "topic": "Signs You Need A Redesign",
+      "fact_index": 17,
+      "seed_fact": "Customers asking 'do you have a website?' means yours isn't memorable. Redesign for impact.",
+      "fresh_tip": false,
+      "image_style": "browser_hero",
+      "image_headline": "Your website isn’t memorable",
+      "status": "published",
+      "media_id": "18669188461005869",
+      "image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/f42847eca7f85a161edde4a0b2e79ef7a564c384/content/images/2026-11-22-4.png",
+      "detail": "Published via Composio",
+      "recorded_at": "2026-11-22T15:07:20Z",
+      "pinterest_pin_id": "1021543128001908932",
+      "pinterest_board_id": "1021543196668085616",
+      "pinterest_published_at": "2026-11-22T15:07:24Z"
     }
   ]
 }
