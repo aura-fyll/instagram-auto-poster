@@ -1,0 +1,28 @@
+{
+  "id": "2026-11-23-1-video",
+  "date": "2026-11-23",
+  "slot": "1",
+  "type": "video",
+  "topic": "web-design",
+  "topic_pill": "DAILY WEB DESIGN",
+  "episode_number": 28,
+  "episode_total": 30,
+  "hook_text": "Your website should work on every phone",
+  "caption": "Your website should work on every phone\n\n1. Mobile-first — Designed for phone first\n2. Touch targets — Buttons easy to tap\n3. Fast on 4G — Loads on mobile data\n\nDM me for a mobile-perfect site\n\n#webdesign #smallbusiness #freelance #mobilefirst #responsivedesign",
+  "hashtags": [
+    "webdesign",
+    "smallbusiness",
+    "freelance",
+    "mobilefirst",
+    "responsivedesign"
+  ],
+  "cta_text": "DM me for a mobile-perfect site",
+  "video_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/download/daily/2026-11-23/web-design.mp4",
+  "cover_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/download/daily/2026-11-23/web-design-cover.jpg",
+  "release_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/tag/daily/2026-11-23",
+  "duration": 24.08,
+  "size_mb": 2.4,
+  "handle": "@visualhookdesign",
+  "fresh_episode": false,
+  "portfolio_link": "https://professional-x.github.io/visualhk-designs/"
+}
