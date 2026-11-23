@@ -3187,6 +3187,29 @@
       "size_mb": 2.5,
       "detail": "Video Reel (IG) + cover pin (Pinterest). Topic: web-design",
       "recorded_at": "2026-11-22T18:03:35Z"
+    },
+    {
+      "id": "2026-11-23-3-video",
+      "date": "2026-11-23",
+      "slot": "video",
+      "type": "video",
+      "topic": "github-freelancing",
+      "topic_pill": "GITHUB x FREELANCING",
+      "episode_number": 9,
+      "hook_text": "I build automations that work while you're on vacation",
+      "image_headline": "I build automations that work while you're on vacation",
+      "seed_fact": "",
+      "image_style": "video_reel",
+      "status": "published",
+      "media_id": "18131437304515193",
+      "pinterest_pin_id": "1021543128001936807",
+      "video_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/download/daily/2026-11-23/github-freelancing.mp4",
+      "cover_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/download/daily/2026-11-23/github-freelancing-cover.jpg",
+      "release_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/tag/daily/2026-11-23",
+      "duration": 22.45,
+      "size_mb": 2.3,
+      "detail": "Video Reel (IG) + cover pin (Pinterest). Topic: github-freelancing",
+      "recorded_at": "2026-11-23T11:07:48Z"
     }
   ]
 }
