@@ -3279,6 +3279,29 @@
       "size_mb": 2.3,
       "detail": "Video Reel (IG) + cover pin (Pinterest). Topic: github-freelancing",
       "recorded_at": "2026-11-25T11:38:18Z"
+    },
+    {
+      "id": "2026-11-25-1-video",
+      "date": "2026-11-25",
+      "slot": "video",
+      "type": "video",
+      "topic": "web-design",
+      "topic_pill": "DAILY WEB DESIGN",
+      "episode_number": 30,
+      "hook_text": "Your website should be your 24/7 salesperson",
+      "image_headline": "Your website should be your 24/7 salesperson",
+      "seed_fact": "",
+      "image_style": "video_reel",
+      "status": "published",
+      "media_id": "18105832520354226",
+      "pinterest_pin_id": "1021543128002006479",
+      "video_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/download/daily/2026-11-25/web-design.mp4",
+      "cover_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/download/daily/2026-11-25/web-design-cover.jpg",
+      "release_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/tag/daily/2026-11-25",
+      "duration": 24.32,
+      "size_mb": 2.4,
+      "detail": "Video Reel (IG) + cover pin (Pinterest). Topic: web-design",
+      "recorded_at": "2026-11-25T17:54:35Z"
     }
   ]
 }
