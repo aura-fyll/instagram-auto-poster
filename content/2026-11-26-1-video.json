@@ -1,0 +1,28 @@
+{
+  "id": "2026-11-26-1-video",
+  "date": "2026-11-26",
+  "slot": "1",
+  "type": "video",
+  "topic": "web-design",
+  "topic_pill": "DAILY WEB DESIGN",
+  "episode_number": 1,
+  "episode_total": 31,
+  "hook_text": "Headings that resize perfectly on every screen",
+  "caption": "Headings that resize perfectly on every screen\n\n1. Use clamp() — Fluid font size with one line\n2. Set line-height — Maintain readability with consistent line height\n3. Responsive container — Limit max width for readability\n\nTry it on your site today\n\n#css #frontend #webdesign #responsive #ui",
+  "hashtags": [
+    "css",
+    "frontend",
+    "webdesign",
+    "responsive",
+    "ui"
+  ],
+  "cta_text": "Try it on your site today",
+  "video_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/download/daily/2026-11-26/web-design.mp4",
+  "cover_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/download/daily/2026-11-26/web-design-cover.jpg",
+  "release_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/tag/daily/2026-11-26",
+  "duration": 34.13,
+  "size_mb": 3.3,
+  "handle": "@visualhookdesign",
+  "fresh_episode": true,
+  "portfolio_link": "https://professional-x.github.io/visualhk-designs/"
+}
