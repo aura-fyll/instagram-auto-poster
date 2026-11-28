@@ -1,0 +1,28 @@
+{
+  "id": "2026-11-28-1-video",
+  "date": "2026-11-28",
+  "slot": "1",
+  "type": "video",
+  "topic": "web-design",
+  "topic_pill": "DAILY WEB DESIGN",
+  "episode_number": 3,
+  "episode_total": 30,
+  "hook_text": "3 website mistakes costing you clients",
+  "caption": "3 website mistakes costing you clients\n\n1. Tiny text — Under 16px = unreadable\n2. No contact — Buried contact info = lost leads\n3. Stock photos — Fake photos = no trust\n\nDM me to redesign yours\n\n#webdesign #websiteredesign #smallbusiness #uxdesign #freelance",
+  "hashtags": [
+    "webdesign",
+    "websiteredesign",
+    "smallbusiness",
+    "uxdesign",
+    "freelance"
+  ],
+  "cta_text": "DM me to redesign yours",
+  "video_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/download/daily/2026-11-28/web-design.mp4",
+  "cover_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/download/daily/2026-11-28/web-design-cover.jpg",
+  "release_url": "https://github.com/aura-fyll/instagram-auto-poster/releases/tag/daily/2026-11-28",
+  "duration": 27.97,
+  "size_mb": 2.6,
+  "handle": "@visualhookdesign",
+  "fresh_episode": false,
+  "portfolio_link": "https://professional-x.github.io/visualhk-designs/"
+}
