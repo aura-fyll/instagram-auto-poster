@@ -3394,6 +3394,25 @@
       "size_mb": 2.5,
       "detail": "Video Reel (IG) + cover pin (Pinterest). Topic: web-design",
       "recorded_at": "2026-11-27T17:21:04Z"
+    },
+    {
+      "id": "2026-11-28-4",
+      "date": "2026-11-28",
+      "slot": 4,
+      "topic": "Signs You Need A Redesign",
+      "fact_index": 20,
+      "seed_fact": "If your site has dead links, broken images, or 404 errors, it signals an abandoned business.",
+      "fresh_tip": false,
+      "image_style": "component_grid",
+      "image_headline": "Broken Links Lose Customers",
+      "status": "published",
+      "media_id": "18126882412932172",
+      "image_url": "https://raw.githubusercontent.com/aura-fyll/instagram-auto-poster/712bc783893bb43ffb515ed935b60e8de8f6ed21/content/images/2026-11-28-4.png",
+      "detail": "Published via Composio",
+      "recorded_at": "2026-11-28T16:00:38Z",
+      "pinterest_pin_id": "1021543128002098005",
+      "pinterest_board_id": "1021543196668085616",
+      "pinterest_published_at": "2026-11-28T16:00:44Z"
     }
   ]
 }
